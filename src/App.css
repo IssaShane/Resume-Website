@@ -1,33 +1,93 @@
-.App {
+html {
+  scroll-behavior: smooth;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.headerTab {
+  color: whitesmoke;
+  background: transparent;
+  border: none !important;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 0 15px;
+  float: right;
+  padding-top: 2vh;
+}
+
+.headerTab:hover {
+  transform: scale(1.1);
+}
+
+.page {
+  position: relative;
+  height: 100vh;
+
+}
+
+.title_heading {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-top: 40vh;
+  font-size: 80px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.subtitle {
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 40vh;
+  font-size: 25px;
+  color:white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.langTab {
+  color: whitesmoke;
+  background: transparent;
+  border: none !important;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 0 15px;
+  float: left;
+  padding-top: 2vh;
+}
+
+.langTab:hover {
+  transform: scale(1.1);
+}
+
+li {
+  color: white;
+  padding-left: 10vh;
+  list-style: none;
+  font-family: "Times New Roman", Times, serif;
+  font-style: bold;
+  font-size: 4vh;
+  filter: none;
+}
+
+.sub_elem {
+  padding-left: 20vh;
+  padding-top: 2vh;
+  color: rgb(15, 23, 51);
+  list-style: none;
+  font-style: normal;
+  font-size: 1vh;
+}
+
+.bullet {
+  color: white;
+  font-style: oblique;
+  font-size: 3vh;
+}
+
+.subtitle_heading {
+  text-align: center;
+  padding-top: 10vh;
+  font-size: 45px;
+  color: white;
+}
+
+.backgroundImg {
+  background-image: url('./img/balconies2.jpg');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
 }

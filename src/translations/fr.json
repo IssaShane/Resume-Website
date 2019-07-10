@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "experience": "Éxperience",
+    "education": "Éducation"
+  },
+
+  "home": {
+    "subheading": "Connoisseur de Coding | Amateur d'Espresso"
+  },
+
+  "education": {
+    "highschool": {
+      "timeframe": "Autumn 2014 - Spring 2017",
+      "degree": "GED",
+      "institution": "Naperville Central High School",
+      "location": "Naperville, Illinois, USA"
+    },
+
+    "university": {
+      "timeframe": "Autumn 2017 - Spring 2022",
+      "degree": "Bachelour's of Mathematics",
+      "institution": "University of Waterloo",
+      "location": "Waterloo, Ontario, Canada",
+      "description": {
+        "1": "Developed skills in mathematical logic and proofs",
+        "2": "Developed strong written and communication skills in English, German, and French",
+        "3": "Practiced functional and imperative programming"
+      }
+    }
+  },
+
+  "experience": {
+    "heading": "Experience",
+    "Taco_Hell": {
+      "company": "Taco Bell",
+      "title": "Service Champion",
+      "timeframe": "September 2015 - December 2015",
+      "location": "Naperville, Illinois, USA",
+      "description": {
+        "1": "Took orders from customers, both from the front desk and from the drive-thru",
+        "2": "Cleaned washrooms, dining areas, and cooking areas",
+        "3": "Restocked kitchen, washed dishes, and took out garbage",
+        "4": "Learned to accommodate the needs of others, both customers and coworkers"
+      }
+    },
+
+    "Portillos": {
+      "company": "Portillo's Hotdogs",
+      "title": "Customer Service Representative",
+      "timeframe": "June 2018 - August 2018",
+      "location": "Bolingbrook, Illinois, USA",
+      "description": {
+        "1": "Took orders from customers and diagnose issues with food or service to ensures superior service",
+        "2": "Communicated effectively with my associates in the kitchen to help ensure the quality of the product",
+        "3": "Learned how to function in unfamiliar situations without hindering the performance of my team"
+      }
+    },
+
+    "Math Ambassador": {
+      "company": "University of Waterloo, Faculty of Mathematics",
+      "title": "Math Student Ambassador",
+      "timeframe": "October 2018 - Present",
+      "location": "Waterloo, Ontario, Canada",
+      "description": {
+        "1": "Delivered superior service to a diverse group of prospective students to the faculty of mathematics at the University of Waterloo, as well as their families",
+        "2": "Offered invaluable guidance regarding courses, Co-op opportunities, and student life"
+      }
+    }
+  }
+}
