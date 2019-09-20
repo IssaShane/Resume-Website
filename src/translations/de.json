@@ -1,11 +1,13 @@
 {
   "nav": {
     "experience": "Erfahrung",
-    "education": "Ausbildung"
+    "education": "Ausbildung",
+    "top": "Zurück zu Kopf", 
+    "about": "Über Mich"
   },
 
   "home": {
-    "subheading": "Professionaler Vermüter"
+    "subheading": "Student von der Mathematik | Aufstrebender Programmierer | Liebhaber von Espresso"
   },
 
   "education": {
@@ -21,50 +23,51 @@
       "degree": "Bachelour's of Mathematics",
       "institution": "University of Waterloo",
       "location": "Waterloo, Ontario, Canada",
-      "description": {
-        "1": "Developed skills in mathematical logic and proofs",
-        "2": "Developed strong written and communication skills in English, German, and French",
-        "3": "Practiced functional and imperative programming"
-      }
+      "description": "Durch meine Zeit an der Universität von Waterloo soweit bekam ich Erfahrung mit Mathe Logische und Nachweisen, funktionell und imperative Programmierung, und wirksame Kommunikation durch Sprechen und Schreiben."
     }
   },
 
   "experience": {
-    "heading": "Experience",
+    "heading": "Erfahrung",
     "Taco_Hell": {
       "company": "Taco Bell",
       "title": "Service Champion",
-      "timeframe": "September 2015 - December 2015",
+      "timeframe": "September 2015 - Dezember 2015",
       "location": "Naperville, Illinois, USA",
-      "description": {
-        "1": "Took orders from customers, both from the front desk and from the drive-thru",
-        "2": "Cleaned washrooms, dining areas, and cooking areas",
-        "3": "Restocked kitchen, washed dishes, and took out garbage",
-        "4": "Learned to accommodate the needs of others, both customers and coworkers"
-      }
+      "description": "Hauptkellner und Team Mitglieder "
     },
 
     "Portillos": {
       "company": "Portillo's Hotdogs",
       "title": "Customer Service Representative",
-      "timeframe": "June 2018 - August 2018",
+      "timeframe": "Juni 2018 - August 2018",
       "location": "Bolingbrook, Illinois, USA",
-      "description": {
-        "1": "Took orders from customers and diagnose issues with food or service to ensures superior service",
-        "2": "Communicated effectively with my associates in the kitchen to help ensure the quality of the product",
-        "3": "Learned how to function in unfamiliar situations without hindering the performance of my team"
-      }
+      "description": "Kellner, beide innen und draußen, und Team Mitglieder"
     },
 
     "Math Ambassador": {
       "company": "University of Waterloo, Faculty of Mathematics",
       "title": "Math Student Ambassador",
-      "timeframe": "October 2018 - Present",
+      "timeframe": "Oktober 2018 - Heutig",
       "location": "Waterloo, Ontario, Canada",
-      "description": {
-        "1": "Delivered superior service to a diverse group of prospective students to the faculty of mathematics at the University of Waterloo, as well as their families",
-        "2": "Offered invaluable guidance regarding courses, Co-op opportunities, and student life"
-      }
+      "description": "Platzanweiser und Leiter für zukünftigen Studenten von der Fakultät von Mathematik"
+    },
+
+    "HHD": {
+      "company": "HHD Imports Inc",
+      "title": "Verwalter vom Vertrieb und Marketing",
+      "timeframe": "Mai 2019 - September 2019",
+      "location": "Waterloo, Ontario, Canada",
+      "description": ""
+    }
+  },
+
+  "about": {
+    "heading": "Über Mich",
+    "description": {
+      "1":"Hallo! Außer ein Enthusiasmus für Espresso und eine Tenazität für Tee, man könnte sagen, dass ich eine große Neugierigkeit für coding habe; eine Passion für Programmierung (das reicht für Alliteration; das wäre unmöglich überzusetzen). Als ein dritter-Jahre Student an der Universität von Waterloo, ich habe gelernt, die Schritte zu schätzen, die mich hierhin gebracht haben, aus Grand Cayman, nach der Nähe von Toronto, nach der Nähe von Chicago, nach Waterloo. ",
+      "2":"Durch meine grundlegende Periode in Illinois habe ich eine Glücklichkeit gefunden, in kreative Aktivitäten: singen, tanzten, Klavier spielen, zeichnen, malen, und (manchmal) schreiben; es gab einfach so viel zu äußern und grenzenlos viel Möglichkeiten zu realisieren. Später habe ich angefangen, Fremdsprachen anzunehmen, und sie benutzen, um andere Kulturen für mich zu entdecken.",
+      "3":"Und jetzt ist es hier wo ich stehe, und ehrlich, frage mich was zum Teufel ich mache. Die Straße steht vor mir lange, mühsam, und unbekannte. Ich werde Schritte von Schritte spazieren; ich kann einfach nicht wissen, was vor mir stehen wird, bis es mir direkt in den Gesicht anschlägt. "
     }
   }
 }

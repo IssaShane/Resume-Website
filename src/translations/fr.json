@@ -1,70 +1,89 @@
 {
   "nav": {
     "experience": "Éxperience",
-    "education": "Éducation"
+    "education": "Éducation",
+    "top": "À La Tête",
+    "about": "Biographie"
   },
 
   "home": {
-    "subheading": "Connoisseur de Coding | Amateur d'Espresso"
+    "subheading": "Étudiant de la Mathématique | Programmeur Éspirant | Amateur d'Espresso"
   },
 
   "education": {
     "highschool": {
-      "timeframe": "Autumn 2014 - Spring 2017",
+      "timeframe": "Autumn 2014 - Printemps 2017",
       "degree": "GED",
       "institution": "Naperville Central High School",
       "location": "Naperville, Illinois, USA"
     },
 
     "university": {
-      "timeframe": "Autumn 2017 - Spring 2022",
+      "timeframe": "Autumn 2017 - Printemps 2022",
       "degree": "Bachelour's of Mathematics",
       "institution": "University of Waterloo",
       "location": "Waterloo, Ontario, Canada",
       "description": {
-        "1": "Developed skills in mathematical logic and proofs",
-        "2": "Developed strong written and communication skills in English, German, and French",
-        "3": "Practiced functional and imperative programming"
+        "1": "Développer des habitudes en logique de la mathématique, l’algèbre linéaire, les combinatoriques, et l’optimisation linéaire",
+        "2": "Développer des habitudes fortes en communication en anglais, français, et allemand",
+        "3": "Pratiquer la programmation fonctionnelle et impérative"
       }
     }
   },
 
   "experience": {
-    "heading": "Experience",
+    "heading": "Expérience",
     "Taco_Hell": {
       "company": "Taco Bell",
-      "title": "Service Champion",
-      "timeframe": "September 2015 - December 2015",
+      "title": "Champion de Service",
+      "timeframe": "Septembre 2015 - Decembre 2015",
       "location": "Naperville, Illinois, USA",
-      "description": {
-        "1": "Took orders from customers, both from the front desk and from the drive-thru",
-        "2": "Cleaned washrooms, dining areas, and cooking areas",
-        "3": "Restocked kitchen, washed dishes, and took out garbage",
-        "4": "Learned to accommodate the needs of others, both customers and coworkers"
-      }
+      "description": "Comme un champion de service, la responsabilité est tombée à moi de prendre des commandes, même de la réception, et du drive-thru, nettoyer les toilettes, le coin repas, et la cuisine, reconstituer les ingrédients dans la cuisine, faire la vaisselle, et sortir les ordures. Pendant ce travail, j’ai appris à accommoder les demandes des autres, même clients et collègues"
     },
 
     "Portillos": {
       "company": "Portillo's Hotdogs",
-      "title": "Customer Service Representative",
-      "timeframe": "June 2018 - August 2018",
+      "title": "Représentetive de Service Client",
+      "timeframe": "Juin 2018 - Août 2018",
       "location": "Bolingbrook, Illinois, USA",
       "description": {
-        "1": "Took orders from customers and diagnose issues with food or service to ensures superior service",
-        "2": "Communicated effectively with my associates in the kitchen to help ensure the quality of the product",
-        "3": "Learned how to function in unfamiliar situations without hindering the performance of my team"
+        "1": "Prendre des ordres des clients et diagnostiquer des problèmes avec la cuisine et le service pour assurer le service supérieur",
+        "2": "Communiquer effectivement avec mes associés dans la cuisine pour assurer la qualité du produit",
+        "3": "Apprendre de fonctionner en situations inconnues sans empêcher la performance de mon équipe"
       }
     },
 
     "Math Ambassador": {
-      "company": "University of Waterloo, Faculty of Mathematics",
+      "company": "Univérsité de Waterloo, Faculty de la Mathémathique",
       "title": "Math Student Ambassador",
-      "timeframe": "October 2018 - Present",
+      "timeframe": "Octobre 2018 - Present",
       "location": "Waterloo, Ontario, Canada",
       "description": {
-        "1": "Delivered superior service to a diverse group of prospective students to the faculty of mathematics at the University of Waterloo, as well as their families",
-        "2": "Offered invaluable guidance regarding courses, Co-op opportunities, and student life"
+        "1": "Fournir du service supérieur au groupe diverse des étudiants et familles prospectives de la faculté de la mathématique chez l’Université de Waterloo",
+        "2": "Offrir de la guidance aux sujets des cours, opportunités stagiaires, et la vie des étudiants"
       }
+    },
+
+    "HHD": {
+      "company": "HHD Imports Inc",
+      "title": "Assistant en Administration et Marketing",
+      "timeframe": "Mai 2019 - Août 2019",
+      "location": "Waterloo, Ontario, Canada",
+      "description": {
+        "1": "Coordonner de la communication entre LCBO (Bureau de la Liqueur de l’Ontario) et des producteurs étrangers du vin",
+        "2": "Remplir des ordres et des besoins de la documentation pour LCBO, des producteurs étrangers du vin, et mes collègues",
+        "3": "Créer contenu du marketing pour des produits de l’alcool niches",
+        "4": "Maintenir une site web avec l’information, les prix, et les disponibilités des produits courant et à venir"
+      }
+    }
+  },
+
+  "about": {
+    "heading": "Biographie",
+    "description": {
+      "1":"Bonjour ! Sauf pour un enthousiasme pour l’espresso et une ténacité pour le thé, on pourrait dire que j’ai une curiosité profonde pour le coding ; une passion pour la programmation (ça suffit avec l’allitération ; ça sera impossible à traduire). Comme un étudiant en (presque) troisième année à l’Université de Waterloo, J’ai appris d’apprécier les étapes qui m’ont emmené du Cayman Grand, aux banlieues de Toronto, aux banlieues de Chicago, à Waterloo.",
+      "2":"Durant ma période fondamentale en Illinois, j’ai trouvé la joie en plusieurs d’activités créatives : chanter, danser, jouer au piano, dessiner, peintre, et (quelque fois) écrire ; il y avait simplement beaucoup d’exprimer avec une million façons par lesquels de la faire. Plus tard, j’ai commencé d’acquérir des langues étranges, et les utiliser pour explorer des autres cultures.",
+      "3":"Et maintenant, c’est ici où je suis, franchement, où je me demande ce que du fuck je fais. La rue devant de moi est longue, ardue, et inconnue. Je la prendrai étape par étape ; je ne peux pas savoir ce qui se trouvera devant de moi avant je trébuche sur mon visage."
     }
   }
 }

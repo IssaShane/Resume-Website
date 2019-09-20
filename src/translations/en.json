@@ -1,11 +1,13 @@
 {
   "nav": {
     "experience": "Experience",
-    "education": "Education"
+    "education": "Education",
+    "top": "Back To Top",
+    "about": "About Me"
   },
 
   "home": {
-    "subheading": "Coding Connoisseur | Espresso Enthusiast | Aliterative Agent"
+    "subheading": "Student of Mathematics | Aspiring Programmer | Espresso Enthusiast"
   },
 
   "education": {
@@ -22,7 +24,7 @@
       "institution": "University of Waterloo",
       "location": "Waterloo, Ontario, Canada",
       "description": {
-        "1": "Developed skills in mathematical logic and proofs",
+        "1": "Developed skills in mathematical logic and proofs, linear algebra, graph theory, combinatorial enumeration, and linear optimization",
         "2": "Developed strong written and communication skills in English, German, and French",
         "3": "Practiced functional and imperative programming"
       }
@@ -65,6 +67,29 @@
         "1": "Delivered superior service to a diverse group of prospective students to the faculty of mathematics at the University of Waterloo, as well as their families",
         "2": "Offered invaluable guidance regarding courses, Co-op opportunities, and student life"
       }
+    },
+
+    "HHD": {
+      "company": "HHD Imports Inc",
+      "title": "Coordinator of Sales and Marketing",
+      "timeframe": "May 2019 - September 2019",
+      "location": "Waterloo, Ontario, Canada",
+      "description": {
+        "1": "Coordinated communication between the LCBO (Liquor Control Board of Ontario) and foreign liquor producers",
+        "2": "Fulfilled orders and documentation needs for the LCBO, foreign liquor producers, and my colleagues", 
+        "3": "Developed marketing content to meet the unique needs of niche beverage alcohol products",
+        "4": "Maintained company website with availability, release dates, and prices of existing and upcoming products"
+      }
     }
+  },
+
+  "about": {
+    "heading": "About Me",
+    "description": {
+    "1":"Hello! Aside from an enthusiasm for espresso and a tinacity for tea, one could say I have a profound curiosity for code; a passion for programming (okay enough with the alliteration; this will be impossible to translate). As a third-year student (almost) at the University of Waterloo, I’ve learned to appreciate the steps that took me from Grand Cayman, to suburban Toronto, to suburban Chicagoland, to Waterloo.",
+    "2":"During my foundational period in Illinois, I found joy in many creative endeavors: singing, dancing, playing the piano, drawing, painting, and (occasionally) writing; there were simply so many things to express and so many ways to do so. Later on, I began to acquire foreign languages, and use them to explore other cultures.",
+    "3":"And so, it is here that I stand, frankly, wondering what the hell I’m doing. The road ahead is long, arduous, and unfamiliar. I’ll take it one step at a time; I can’t know what will stand before me, until it trips me flat on my face."  
+
+  }
   }
 }

@@ -12,45 +12,46 @@ class Education extends React.Component {
       <MyContext.Consumer>
         {(context) => (
       <div className="EduBG">
+        <button className="headerTab" onClick={this.props.scrollToTop}>{(() => {
+          if (context.state.language === 'en') return EN.nav.top;
+          else if (context.state.language === 'fr') return FR.nav.top;
+          else if (context.state.language === 'de') return DE.nav.top;
+        })()}</button>
       <div className="page">
-        <div className="subtitle_heading">Ausbildung</div>
+        
+        <div className="subtitle_heading">{(() => {
+          if (context.state.language === 'en') return EN.nav.education;
+          else if (context.state.language === 'fr') return FR.nav.education;
+          else if (context.state.language === 'de') return DE.nav.education;
+        })()}</div>
         <ul>
           <li>
             <div className="institution">{(() => {
-              if (context.state.language === 'en') return EN.education.highschool.institution;
-              else if (context.state.language === 'fr') return FR.education.highschool.institution;
-              else if (context.state.language === 'de') return DE.education.highschool.institution;
+              if (context.state.language === 'en') return (EN.education.highschool.institution + " : " + EN.education.highschool.timeframe);
+              else if (context.state.language === 'fr') return (FR.education.highschool.institution + " : " + FR.education.highschool.institution);
+              else if (context.state.language === 'de') return (DE.education.highschool.institution + " : " + FR.education.highschool.institution);
             })()}</div>
-            <div className="timeframe">{(() => {
-              if (context.state.language === 'en') return EN.education.highschool.timeframe;
-              else if (context.state.language === 'fr') return FR.education.highschool.timeframe;
-              else if (context.state.language === 'de') return DE.education.highschool.timeframe;
-            })()}
-            </div>
           </li>
           <li><div className="institution">{(() => {
-              if (context.state.language === 'en') return EN.education.highschool.institution;
-              else if (context.state.language === 'fr') return FR.education.highschool.institution;
-              else if (context.state.language === 'de') return DE.education.highschool.institution;
+              if (context.state.language === 'en') return EN.education.university.institution;
+              else if (context.state.language === 'fr') return FR.education.university.institution;
+              else if (context.state.language === 'de') return DE.education.university.institution;
             })()}
             </div>
-            <ul className="sub_elem">
-              <li className="bullet">{(() => {
-                if (context.state.language === 'en') return EN.education.highschool.description["1"];
-                else if (context.state.language === 'fr') return FR.education.highschool.description["1"];
-                else if (context.state.language === 'de') return DE.education.highschool.description["1"];
-              })()}</li>
-              <li className="bullet">{(() => {
-                if (context.state.language === 'en') return EN.education.highschool.description["2"];
-                else if (context.state.language === 'fr') return FR.education.highschool.description["2"];
-                else if (context.state.language === 'de') return DE.education.highschool.description["2"];
-              })()}</li>
-              <li className="bullet">{(() => {
-                if (context.state.language === 'en') return EN.education.highschool.description["3"];
-                else if (context.state.language === 'fr') return FR.education.highschool.description["3"];
-                else if (context.state.language === 'de') return DE.education.highschool.description["3"];
-              })()}</li>
-            </ul>
+            <div className="description">{(() => {
+              if (context.state.language === 'en') {
+                return <ul className="sub_elem">
+                  <li className="bullet">{EN.education.university.description["1"]}</li>
+                  <li className="bullet">{EN.education.university.description["2"]}</li>
+                  <li className="bullet">{EN.education.university.description["3"]}</li>
+                </ul>}
+              else if (context.state.language === 'fr') return <ul className="bullet">
+                <li className="bullet">{FR.education.university.description["1"]}</li>
+                <li className="bullet">{FR.education.university.description["2"]}</li>
+                <li className="bullet">{FR.education.university.description["3"]}</li>
+              </ul>
+              else if (context.state.language === 'de') return <div className="bullet">{DE.education.university.description}</div>
+            })()}</div>
           </li>
 
         </ul>
