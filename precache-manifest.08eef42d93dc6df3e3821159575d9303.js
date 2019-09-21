@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c34e8089d72ef9c8b01877a606d5cff3",
+    "revision": "52b97d6cd58657d55bd2e345c58d4e49",
     "url": "/R-sum-_Website/index.html"
   },
   {
-    "revision": "22dbe7210b62c2f91368",
+    "revision": "d3a6c25129aed7acee68",
     "url": "/R-sum-_Website/static/css/main.578b2830.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/R-sum-_Website/static/js/2.8672fd38.chunk.js"
   },
   {
-    "revision": "22dbe7210b62c2f91368",
-    "url": "/R-sum-_Website/static/js/main.6567268c.chunk.js"
+    "revision": "d3a6c25129aed7acee68",
+    "url": "/R-sum-_Website/static/js/main.fad4e219.chunk.js"
   },
   {
     "revision": "fcb746f2a5cafe7b043d",
