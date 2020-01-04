@@ -1,0 +1,27 @@
+.title_heading {
+  text-align: center;
+  padding-top: 40vh;
+  font-size: 80px;
+  color: white;
+}
+
+.soc_med_icon {
+  color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex: 1;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.soc_med_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+  justify-self: center;
+  margin: 5vh 60vh;
+}

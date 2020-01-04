@@ -29,12 +29,6 @@ html {
   min-height: 100vh;
 }
 
-.title_heading {
-  text-align: center;
-  padding-top: 40vh;
-  font-size: 80px;
-  color: white;
-}
 
 .subtitle {
   text-align: center;
@@ -60,7 +54,6 @@ html {
 
 li {
   color: white;
-  padding-left: 0vh;
   align-self: flex-start;
   font-style: normal;
   font-size: 4vh;
@@ -69,7 +62,6 @@ li {
 
 .sub_elem {
   padding-top: 0vh;
-  padding-left: 0vh;
   color: rgb(15, 23, 51);
   font-style: normal;
   font-size: 1vh;
@@ -77,8 +69,8 @@ li {
 }
 
 .bullet {
-  color: white;
   padding-left: 0vh;
+  color: white;
   font-size: 3vh;
   list-style: circle;
   font-style: normal;
@@ -91,7 +83,7 @@ li {
   justify-items: left;
   justify-self: left;
   padding-left: 14vh;
-  padding-top: 10vh;
+  padding-top: 2vh;
   font-size: 45px;
   color: white;
 }
@@ -103,52 +95,3 @@ li {
 }
 
 
-
-.institution {
-  color: #BDBDBD;
-}
-
-.icon {
-  color: white;
-  padding: 5px;
-  text-align: center;
-  justify-content: center;
-  justify-items: center;
-  justify-self: center;
-  display: flex;
-  flex: 1;
-  width: 60px;
-  height: 60px;
-}
-
-.soc_med_icon {
-  flex: 50%;
-}
-
-.soc_med_bar {
-  display: flex;
-  flex-direction: row;
-  align-self: center;
-  justify-content: center;
-}
-
-.icon:hover {
-  transform: scale(1.1);
-}
-
-.centreImage {
-  padding-top: 8px;
-}
-
-.col2 {
-  background-image: url('./img/swish.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  display: flex;
-  flex: 1;
-}
-
-.rowC {
-  display: flex; 
-  flex-direction: column;
-}

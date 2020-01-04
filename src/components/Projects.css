@@ -1,6 +1,8 @@
 html {
   scroll-behavior: smooth;
-  font-family: "Times New Roman", Times, serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 }
 
 .headerTab {
@@ -47,6 +49,13 @@ html {
   transform: scale(1.1);
 }
 
+.github_link {
+  color: white;
+  width: 60px;
+  height: 60px;
+  padding-top: 10vh;
+}
+
 .subtitle_heading {
   text-align: center;
   justify-content: center;
@@ -71,7 +80,6 @@ li {
   color: white;
   padding-left: 10vh;
   list-style: none;
-  font-family: "Times New Roman", Times, serif;
   font-style: bold;
   font-size: 4vh;
   filter: none;
@@ -91,8 +99,20 @@ li {
   font-style: oblique;
   font-size: 3vh;
   white-space: normal;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.language {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 }
 
 .project_title {
   color: rgb(255, 188, 213);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 }
