@@ -3,39 +3,46 @@ import Index from "./components/index";
 import './App.css';
 import Experience from "./components/Experience";
 import Education from './components/Education';
+import About from './components/about';
+import Projects from './components/Projects';
 import { MyProvider } from './context';
 
-// import translations
-import * as DE from './translations/de.json';
-import * as EN from './translations/en.json';
-import * as FR from './translations/fr.json';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 
 class App extends React.Component {
     constructor(props) {
         super(props);
         this.myEducation = React.createRef();
         this.myExperience = React.createRef();
-        this.currentLang = "en";
+        this.myAbout = React.createRef();
+        this.myTop = React.createRef();
     }
 
     scrollToExperience = () => window.scrollTo(0, this.myExperience.current.offsetTop);
     scrollToEducation = () => window.scrollTo(0, this.myEducation.current.offsetTop);
-
-    activateDE () {this.currentLang = "de"; console.log(this.currentLang);}
-    activateFR () {this.currentLang = "fr"; console.log(this.currentLang);}
-    activateEN () {this.currentLang = "en"; console.log(this.currentLang);}
+    scrollToAbout = () => window.scrollTo(0, this.myAbout.current.offsetTop);
+    scrollToTop = () => window.scrollTo(0, this.myTop.current.offsetTop);
 
     render() {
         return (
             <MyProvider>
-            <div className="backgroundImg">
-                <Index scrollToExperience={this.scrollToExperience} 
-                        scrollToEducation={this.scrollToEducation}/>
-                <div ref={this.myExperience}>
-                    <Experience />
-                </div>
-                <div ref={this.myEducation}>
-                    <Education />
+            <div className="rowC">
+            
+                <div className="backgroundImg">
+                    <div ref={this.myTop}>
+                        <Index scrollToExperience={this.scrollToExperience} 
+                                scrollToEducation={this.scrollToEducation}
+                                scrollToAbout={this.scrollToAbout}/>
+                    </div>
+                    <div ref={this.myExperience}>
+                        <Experience scrollToTop={this.scrollToTop} />
+                    </div>
+                    <div ref={this.myEducation}>
+                        <Education scrollToTop={this.scrollToTop} />
+                    </div>
+                    <div ref={this.myAbout}>
+                        <About scrollToTop={this.scrollToTop} />
+                    </div>
                 </div>
             </div>
             </MyProvider>

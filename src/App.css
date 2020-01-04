@@ -1,6 +1,8 @@
 html {
   scroll-behavior: smooth;
-  font-family: "Times New Roman", Times, serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 }
 
 .headerTab {
@@ -12,6 +14,8 @@ html {
   padding: 0 15px;
   float: right;
   padding-top: 2vh;
+  order: none;
+  align-self: flex-end;
 }
 
 .headerTab:hover {
@@ -20,8 +24,9 @@ html {
 
 .page {
   position: relative;
-  height: 100vh;
-
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .title_heading {
@@ -34,7 +39,6 @@ html {
 .subtitle {
   text-align: center;
   padding-top: 5vh;
-  padding-bottom: 40vh;
   font-size: 25px;
   color:white;
 }
@@ -56,31 +60,37 @@ html {
 
 li {
   color: white;
-  padding-left: 10vh;
-  list-style: none;
-  font-family: "Times New Roman", Times, serif;
-  font-style: bold;
+  padding-left: 0vh;
+  align-self: flex-start;
+  font-style: normal;
   font-size: 4vh;
   filter: none;
 }
 
 .sub_elem {
-  padding-left: 20vh;
-  padding-top: 2vh;
+  padding-top: 0vh;
+  padding-left: 0vh;
   color: rgb(15, 23, 51);
-  list-style: none;
   font-style: normal;
   font-size: 1vh;
+  align-self: flex-start;
 }
 
 .bullet {
   color: white;
-  font-style: oblique;
+  padding-left: 0vh;
   font-size: 3vh;
+  list-style: circle;
+  font-style: normal;
 }
 
 .subtitle_heading {
-  text-align: center;
+  align-self: flex-start;
+  text-align: left;
+  justify-content: left;
+  justify-items: left;
+  justify-self: left;
+  padding-left: 14vh;
   padding-top: 10vh;
   font-size: 45px;
   color: white;
@@ -88,6 +98,57 @@ li {
 
 .backgroundImg {
   background-image: url('./img/balconies2.jpg');
-  background-size: auto 100%;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+
+.institution {
+  color: #BDBDBD;
+}
+
+.icon {
+  color: white;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  display: flex;
+  flex: 1;
+  width: 60px;
+  height: 60px;
+}
+
+.soc_med_icon {
+  flex: 50%;
+}
+
+.soc_med_bar {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.centreImage {
+  padding-top: 8px;
+}
+
+.col2 {
+  background-image: url('./img/swish.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex: 1;
+}
+
+.rowC {
+  display: flex; 
+  flex-direction: column;
 }

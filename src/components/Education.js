@@ -12,12 +12,13 @@ class Education extends React.Component {
       <MyContext.Consumer>
         {(context) => (
       <div className="EduBG">
+        <div className="page">
         <button className="headerTab" onClick={this.props.scrollToTop}>{(() => {
           if (context.state.language === 'en') return EN.nav.top;
           else if (context.state.language === 'fr') return FR.nav.top;
           else if (context.state.language === 'de') return DE.nav.top;
         })()}</button>
-      <div className="page">
+      
         
         <div className="subtitle_heading">{(() => {
           if (context.state.language === 'en') return EN.nav.education;

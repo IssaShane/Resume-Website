@@ -55,10 +55,10 @@
 
     "HHD": {
       "company": "HHD Imports Inc",
-      "title": "Verwalter vom Vertrieb und Marketing",
-      "timeframe": "Mai 2019 - September 2019",
+      "title": "Assistent von der Administration und Marketing",
+      "timeframe": "Mai 2019 - August 2019",
       "location": "Waterloo, Ontario, Canada",
-      "description": ""
+      "description": "Assistent für Dokumentation und Kommunikation für LCBO (Liquor Control Board of Ontario / Büro für die Kontrolle von Alkohol von Ontario), und Marketing für Alkohol Produkten einer Nische"
     }
   },
 
@@ -68,6 +68,15 @@
       "1":"Hallo! Außer ein Enthusiasmus für Espresso und eine Tenazität für Tee, man könnte sagen, dass ich eine große Neugierigkeit für coding habe; eine Passion für Programmierung (das reicht für Alliteration; das wäre unmöglich überzusetzen). Als ein dritter-Jahre Student an der Universität von Waterloo, ich habe gelernt, die Schritte zu schätzen, die mich hierhin gebracht haben, aus Grand Cayman, nach der Nähe von Toronto, nach der Nähe von Chicago, nach Waterloo. ",
       "2":"Durch meine grundlegende Periode in Illinois habe ich eine Glücklichkeit gefunden, in kreative Aktivitäten: singen, tanzten, Klavier spielen, zeichnen, malen, und (manchmal) schreiben; es gab einfach so viel zu äußern und grenzenlos viel Möglichkeiten zu realisieren. Später habe ich angefangen, Fremdsprachen anzunehmen, und sie benutzen, um andere Kulturen für mich zu entdecken.",
       "3":"Und jetzt ist es hier wo ich stehe, und ehrlich, frage mich was zum Teufel ich mache. Die Straße steht vor mir lange, mühsam, und unbekannte. Ich werde Schritte von Schritte spazieren; ich kann einfach nicht wissen, was vor mir stehen wird, bis es mir direkt in den Gesicht anschlägt. "
+    }
+  },
+
+  "projects": {
+    "heading": "Projekten",
+    "Graph GUI Tool": {
+      "title": "Graph GUI Tool (unverfasstes Titel)",
+      "description": "Ein graphisches Softwarearbeitszeug, beabsichtigt für Studenten von Graph und Neztwerk Theorie, um ihre Verständnis zu verbessern.",
+      "language": "C++"
     }
   }
 }

@@ -12,12 +12,13 @@ class Experience extends React.Component {
       <MyContext.Consumer>
         {(context) => (
       <div className="ExpBG">
+        <div className="page">
       <button className="headerTab" onClick={this.props.scrollToTop}>{(() => {
           if (context.state.language === 'en') return EN.nav.top;
           else if (context.state.language === 'fr') return FR.nav.top;
           else if (context.state.language === 'de') return DE.nav.top;
         })()}</button>
-      <div className="page">
+      
         
         <div className="subtitle_heading">{(() => {
           if (context.state.language === 'en') return EN.experience.heading;
@@ -27,33 +28,6 @@ class Experience extends React.Component {
         </div>
         
         <ul>
-          {/*<li><div className="company">{(() => {
-            if (context.state.language === 'en') return (EN.experience.Taco_Hell.company + " : " + EN.experience.Taco_Hell.timeframe);
-            else if (context.state.language === 'fr') return (FR.experience.Taco_Hell.company + " : " + FR.experience.Taco_Hell.timeframe);
-            else if (context.state.language === 'de') return (DE.experience.Taco_Hell.company + " : " + DE.experience.Taco_Hell.timeframe);
-          })()}</div>
-              <div className="job_title">{(() => {
-            if (context.state.language === 'en') return EN.experience.Taco_Hell.title;
-            else if (context.state.language === 'fr') return FR.experience.Taco_Hell.title;
-            else if (context.state.language === 'de') return DE.experience.Taco_Hell.title;
-              })()}
-              </div>
-            <div className="description"> {(() => {
-              if (context.state.language === 'en') {
-                return <ul className="sub_elem">
-                <li className="bullet">{EN.experience.Taco_Hell.description["1"]}</li>
-                <li className="bullet">{EN.experience.Taco_Hell.description["2"]}</li>
-                <li className="bullet">{EN.experience.Taco_Hell.description["3"]}</li>
-                <li className="bullet">{EN.experience.Taco_Hell.description["4"]}</li>
-                </ul>
-              }
-              else if (context.state.language === 'fr') return <div className="sub_elem">
-                <div className="bullet">{FR.experience.Taco_Hell.description}</div></div>
-              else if (context.state.language === 'de') return <div className="sub_elem">
-                <div className="bullet">{DE.experience.Taco_Hell.description}</div></div>
-            })()}
-          </div>
-          </li>*/}
           <li>
             <div className="company">{(() => {
               if (context.state.language === 'en') return (EN.experience.Portillos.company + " : " + EN.experience.Portillos.timeframe);
@@ -65,7 +39,7 @@ class Experience extends React.Component {
               else if (context.state.language === 'fr') return FR.experience.Portillos.title;
               else if (context.state.language === 'de') return DE.experience.Portillos.title;
             })()}</div>
-            <div className="description">{(() => {
+            <div>{(() => {
               if (context.state.language === 'en') return <ul className="sub_elem">
                 <li className="bullet">{EN.experience.Portillos.description["1"]}</li>
                 <li className="bullet">{EN.experience.Portillos.description["2"]}</li>

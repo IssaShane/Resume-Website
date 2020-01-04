@@ -91,5 +91,14 @@
     "3":"And so, it is here that I stand, frankly, wondering what the hell I’m doing. The road ahead is long, arduous, and unfamiliar. I’ll take it one step at a time; I can’t know what will stand before me, until it trips me flat on my face."  
 
   }
+  },
+
+  "projects" : {
+    "heading": "Projects",
+    "Graph GUI Tool": {
+      "title": "Graph GUI Learning Tool (Working Title)",
+      "description": "A graphical tool intended to help students learn more about Graph and Network Theory.",
+      "language": "C++"
+    }
   }
 }

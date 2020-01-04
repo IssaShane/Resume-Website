@@ -1,4 +1,11 @@
 .ExpBG {
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+  background-color: rgb(34, 34, 34);
+}
+
+.company {
+  color: #BDBDBD;
+}
+
+.job_title {
+  font-style: oblique;
 }

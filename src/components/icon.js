@@ -1,8 +1,8 @@
 import React from 'react';
 
 class Icon extends React.Component {
-  constructor(dest) {
-    this.props.link = dest;
+  constructor(props) {
+    super(props);
   }
 
   render () {

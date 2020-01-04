@@ -70,7 +70,7 @@
       "timeframe": "Mai 2019 - Août 2019",
       "location": "Waterloo, Ontario, Canada",
       "description": {
-        "1": "Coordonner de la communication entre LCBO (Bureau de la Liqueur de l’Ontario) et des producteurs étrangers du vin",
+        "1": "Coordonner de la communication entre LCBO (Bureau du Contrôle de la Liqueur de l’Ontario) et des producteurs étrangers du vin",
         "2": "Remplir des ordres et des besoins de la documentation pour LCBO, des producteurs étrangers du vin, et mes collègues",
         "3": "Créer contenu du marketing pour des produits de l’alcool niches",
         "4": "Maintenir une site web avec l’information, les prix, et les disponibilités des produits courant et à venir"
@@ -84,6 +84,15 @@
       "1":"Bonjour ! Sauf pour un enthousiasme pour l’espresso et une ténacité pour le thé, on pourrait dire que j’ai une curiosité profonde pour le coding ; une passion pour la programmation (ça suffit avec l’allitération ; ça sera impossible à traduire). Comme un étudiant en (presque) troisième année à l’Université de Waterloo, J’ai appris d’apprécier les étapes qui m’ont emmené du Cayman Grand, aux banlieues de Toronto, aux banlieues de Chicago, à Waterloo.",
       "2":"Durant ma période fondamentale en Illinois, j’ai trouvé la joie en plusieurs d’activités créatives : chanter, danser, jouer au piano, dessiner, peintre, et (quelque fois) écrire ; il y avait simplement beaucoup d’exprimer avec une million façons par lesquels de la faire. Plus tard, j’ai commencé d’acquérir des langues étranges, et les utiliser pour explorer des autres cultures.",
       "3":"Et maintenant, c’est ici où je suis, franchement, où je me demande ce que du fuck je fais. La rue devant de moi est longue, ardue, et inconnue. Je la prendrai étape par étape ; je ne peux pas savoir ce qui se trouvera devant de moi avant je trébuche sur mon visage."
+    }
+  },
+
+  "projects": {
+    "heading": "Projects",
+    "Graph GUI Tool": {
+      "title": "Graph GUI Tool (Titre provisoire)",
+      "description": "un outil graphique destiné pour aider des étudiants d'améliorer leure compréhension de la Théorie des Graph et des Networks",
+      "language": "C++"
     }
   }
 }
