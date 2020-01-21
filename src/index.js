@@ -7,21 +7,16 @@ import * as serviceWorker from './serviceWorker';
 
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 
+import Nav from './navigator';
+
 import Projects from './components/Projects';
 import { MyProvider } from './context';
 
 const router = (
   <MyProvider>
-    <Router>
-      <div className="linkBar">
-        <Link to="/" className="pageNav">___
-        </Link>
-        <Link to="Projects" className="pageNav">___</Link>
-      </div>
-
-      <Route exact path="/" component={App} />
-      <Route path="/Projects" component={Projects} />
-    </Router>
+    
+    <Nav/>
+    
   </MyProvider>
 )
 

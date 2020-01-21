@@ -1,0 +1,43 @@
+.langTab {
+  color: whitesmoke;
+  background: transparent;
+  border: none !important;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 0 15px;
+  float: left;
+  padding-top: 10px;
+}
+
+.langTab:hover {
+  transform: scale(1.1);
+}
+
+.topNavBar {
+  background: black;
+}
+
+.pageNav {
+  color: whitesmoke;
+  background: transparent;
+  border: none !important;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 0 15px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.pageNav:hover {
+  transform: scale(1.1);
+}
+
+.linkBar {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 16vh;
+}
