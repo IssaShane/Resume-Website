@@ -3,7 +3,7 @@ import Icon from './icon';
 import * as FR from '../translations/fr.json';
 import * as DE from '../translations/de.json';
 import * as EN from '../translations/en.json';
-import '../App.css';
+import './home.css';
 
 import App from '../App';
 import Projects from './Projects';

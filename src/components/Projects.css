@@ -56,6 +56,10 @@ html {
   padding-top: 10vh;
 }
 
+.github_link .icon .centreImage {
+  padding: 2vh;
+}
+
 .subtitle_heading {
   text-align: center;
   justify-content: center;

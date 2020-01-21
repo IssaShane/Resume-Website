@@ -11,6 +11,10 @@
   justify-content: center;
 }
 
+.icon {
+  color: whitesmoke;
+}
+
 .pageNav:hover {
   transform: scale(1.1);
 }

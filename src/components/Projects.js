@@ -36,7 +36,7 @@ class Projects extends React.Component {
                   else if (context.state.language === 'fr') return FR.projects['Graph GUI Tool'].title;
                   else if (context.state.language === 'de') return DE.projects['Graph GUI Tool'].title;
                 })()}</div>
-                <div>{(() => {
+                <div className="language">{(() => {
                   if (context.state.language === 'en') return 'Language: ' + EN.projects['Graph GUI Tool'].language;
                   else if (context.state.language === 'fr') return "Langue: " + FR.projects['Graph GUI Tool'].language;
                   else if (context.state.language === 'de') return "Sprache: " + DE.projects['Graph GUI Tool'].language;
@@ -46,7 +46,7 @@ class Projects extends React.Component {
                   else if (context.state.language === 'fr') return FR.projects['Graph GUI Tool'].description;
                   else if (context.state.language === 'de') return DE.projects['Graph GUI Tool'].description;
                 })()}</div>
-                <Icon className="soc_med_icon" link="https://www.github.com/IssaShane/CO250" image={GithubImg}/>
+                <Icon className="github_link" link="https://www.github.com/IssaShane/CO250" image={GithubImg}/>
               </li>
             </ul>
           </div>

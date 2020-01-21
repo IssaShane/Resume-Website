@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Icon from './components/icon';
 import * as serviceWorker from './serviceWorker';
 
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
@@ -13,7 +14,8 @@ const router = (
   <MyProvider>
     <Router>
       <div className="linkBar">
-        <Link to="/" className="pageNav">___</Link>
+        <Link to="/" className="pageNav">___
+        </Link>
         <Link to="Projects" className="pageNav">___</Link>
       </div>
 
