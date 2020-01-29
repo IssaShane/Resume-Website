@@ -5,7 +5,7 @@ import Experience from "./components/Experience";
 import Education from './components/Education';
 import About from './components/about';
 import Projects from './components/Projects';
-import { MyProvider } from './context';
+import { MyProvider, MyContext } from './context';
 
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 
@@ -25,7 +25,8 @@ class App extends React.Component {
 
     render() {
         return (
-            <MyProvider>
+            <MyContext.Consumer>
+            {(context) =>(
             <div className="rowC">
             
                 <div className="backgroundImg">
@@ -45,7 +46,8 @@ class App extends React.Component {
                     </div>
                 </div>
             </div>
-            </MyProvider>
+            )}
+            </MyContext.Consumer>
         );
     }
 }

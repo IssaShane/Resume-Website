@@ -9,6 +9,8 @@ import * as EN from '../translations/en.json';
 import * as FR from '../translations/fr.json';
 import * as DE from '../translations/de.json';
 
+import { Document } from 'react-pdf';
+
 class Projects extends React.Component {
 
   render () {
@@ -17,11 +19,6 @@ class Projects extends React.Component {
         {(context) => (
           <div className="ProjectBG">
           <div className="page">
-            <div className="langBar">
-            <button className="langTab" onClick={context.changeLang} data-language={'en'}>EN</button>
-            <button className="langTab" onClick={context.changeLang} data-language={'fr'}>FR</button>
-            <button className="langTab" onClick={context.changeLang} data-language={'de'}>DE</button>          
-            </div>
             <div className="subtitle_heading">
               {(() => {
                 if (context.state.language === 'en') return EN.projects.heading;
@@ -47,6 +44,9 @@ class Projects extends React.Component {
                   else if (context.state.language === 'de') return DE.projects['Graph GUI Tool'].description;
                 })()}</div>
                 <Icon className="github_link" link="https://www.github.com/IssaShane/CO250" image={GithubImg}/>
+                <a className="docLink" href="https://drive.google.com/file/d/1EwYf1ZrQrcXi2FqVolGMFywGhSAzCXFr/view?usp=sharing" target="blank">
+                  view the design documents
+                </a>
               </li>
             </ul>
           </div>

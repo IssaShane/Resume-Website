@@ -23,10 +23,8 @@ class Index extends React.Component {
         <MyContext.Consumer>
           {(context) => (
             <div>
+                
               
-              <button className="langTab" onClick={context.changeLang} data-language={'en'}>EN</button>
-                <button className="langTab" onClick={context.changeLang} data-language={'fr'}>FR</button>
-                <button className="langTab" onClick={context.changeLang} data-language={'de'}>DE</button>
                 <button className="headerTab" onClick={this.props.scrollToExperience}>{(() => {
                 if (context.state.language === 'en') return EN.nav.experience;
                 else if (context.state.language === 'fr') return FR.nav.experience;

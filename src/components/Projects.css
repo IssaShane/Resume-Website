@@ -57,7 +57,7 @@ html {
 }
 
 .github_link .icon .centreImage {
-  padding: 2vh;
+  padding: 5vh;
 }
 
 .subtitle_heading {
@@ -119,4 +119,10 @@ li {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+}
+
+.docLink {
+  color: white;
+  text-decoration: none;
+  font-style: italic;
 }

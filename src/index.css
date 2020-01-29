@@ -1,30 +1,10 @@
-.pageNav {
-  color: whitesmoke;
-  background: transparent;
-  border: none !important;
-  cursor: pointer;
-  font-size: 20px;
-  padding: 0 15px;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  text-decoration: none;
-  justify-content: center;
-}
+
 
 .icon {
   color: whitesmoke;
 }
 
-.pageNav:hover {
-  transform: scale(1.1);
-}
 
-.linkBar {
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 
 body {
   margin: 0;
