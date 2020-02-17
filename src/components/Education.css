@@ -1,7 +1,42 @@
 .EduBG {
-  background-color: rgb(80, 80, 80);
+  background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(127, 181, 171, 0.5)
+  ),
+  url('../img/curved_bookshelf.jpg');
+  background-size: 100%;
+}
+
+.nchs_background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+  rgba(182, 167, 159, 0.5)),
+  url('../img/lockers.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  filter: grayscale(65%);
+}
+
+.uw_background {
+  background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(255, 231, 111, 0.5)
+  ),
+  url('../img/bookshelf.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  filter: grayscale(65%);
+}
+
+.section_header {
+  color: whitesmoke;
+  font-size: 28vh;
+  text-align: left;
+  padding-left: 25vh;
+  padding-top: 15vh;
 }
 
 .institution {
   color: #BDBDBD;
+  padding-left: 10vh;
+  font-size: 10vh;
 }

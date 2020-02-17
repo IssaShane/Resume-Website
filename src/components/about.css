@@ -11,3 +11,13 @@
 .bottomPadding {
   padding-bottom: 40vh;
 }
+
+.about_bg {
+  background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0, 228, 160, 0.171)
+  ),
+  url('../img/Tomahawk.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}

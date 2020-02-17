@@ -24,9 +24,9 @@
       "institution": "University of Waterloo",
       "location": "Waterloo, Ontario, Canada",
       "description": {
-        "1": "Développer des habitudes en logique de la mathématique, l’algèbre linéaire, les combinatoriques, et l’optimisation linéaire",
+        "1": "Développer des habitudes en logique de la mathématique, l’algèbre linéaire, les combinatoriques, la théorie des graphes et réseau, et l’optimisation linéaire",
         "2": "Développer des habitudes fortes en communication en anglais, français, et allemand",
-        "3": "Pratiquer la programmation fonctionnelle et impérative"
+        "3": "Pratiquer la programmation fonctionnelle, impérative, et orientée objet"
       }
     }
   },
@@ -54,7 +54,7 @@
     },
 
     "Math Ambassador": {
-      "company": "Univérsité de Waterloo, Faculty de la Mathémathique",
+      "company": "Univérsité de Waterloo, Faculté de la Mathémathique",
       "title": "Math Student Ambassador",
       "timeframe": "Octobre 2018 - Present",
       "location": "Waterloo, Ontario, Canada",
@@ -72,7 +72,7 @@
       "description": {
         "1": "Coordonner de la communication entre LCBO (Bureau du Contrôle de la Liqueur de l’Ontario) et des producteurs étrangers du vin",
         "2": "Remplir des ordres et des besoins de la documentation pour LCBO, des producteurs étrangers du vin, et mes collègues",
-        "3": "Créer contenu du marketing pour des produits de l’alcool niches",
+        "3": "Créer contenu marketing pour des produits de l’alcool niches",
         "4": "Maintenir une site web avec l’information, les prix, et les disponibilités des produits courant et à venir"
       }
     }

@@ -1,8 +1,14 @@
 .title_heading {
   text-align: center;
-  padding-top: 40vh;
+  padding-top: 25vh;
   font-size: 80px;
   color: white;
+}
+
+.home_background {
+  background-image: url('../img/balconies2.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .soc_med_icon {

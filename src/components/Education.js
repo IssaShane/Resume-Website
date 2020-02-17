@@ -12,28 +12,25 @@ class Education extends React.Component {
       <MyContext.Consumer>
         {(context) => (
       <div className="EduBG">
-        <div className="page">
-        <button className="headerTab" onClick={this.props.scrollToTop}>{(() => {
-          if (context.state.language === 'en') return EN.nav.top;
-          else if (context.state.language === 'fr') return FR.nav.top;
-          else if (context.state.language === 'de') return DE.nav.top;
-        })()}</button>
-      
         
-        <div className="subtitle_heading">{(() => {
+        <div className="page">
+        <div className="section_header">{(() => {
           if (context.state.language === 'en') return EN.nav.education;
           else if (context.state.language === 'fr') return FR.nav.education;
           else if (context.state.language === 'de') return DE.nav.education;
         })()}</div>
-        <ul>
-          <li>
+        </div>
+
+          <div className="nchs_background"><div className="page">
             <div className="institution">{(() => {
               if (context.state.language === 'en') return (EN.education.highschool.institution + " : " + EN.education.highschool.timeframe);
-              else if (context.state.language === 'fr') return (FR.education.highschool.institution + " : " + FR.education.highschool.institution);
-              else if (context.state.language === 'de') return (DE.education.highschool.institution + " : " + FR.education.highschool.institution);
+              else if (context.state.language === 'fr') return (FR.education.highschool.institution + " : " + FR.education.highschool.timeframe);
+              else if (context.state.language === 'de') return (DE.education.highschool.institution + " : " + FR.education.highschool.timeframe);
             })()}</div>
-          </li>
-          <li><div className="institution">{(() => {
+          </div></div>
+
+          <div className="uw_background"><div className="page">
+          <div className="institution">{(() => {
               if (context.state.language === 'en') return EN.education.university.institution;
               else if (context.state.language === 'fr') return FR.education.university.institution;
               else if (context.state.language === 'de') return DE.education.university.institution;
@@ -46,17 +43,17 @@ class Education extends React.Component {
                   <li className="bullet">{EN.education.university.description["2"]}</li>
                   <li className="bullet">{EN.education.university.description["3"]}</li>
                 </ul>}
-              else if (context.state.language === 'fr') return <ul className="bullet">
+              else if (context.state.language === 'fr') return <ul className="sub_elem">
                 <li className="bullet">{FR.education.university.description["1"]}</li>
                 <li className="bullet">{FR.education.university.description["2"]}</li>
                 <li className="bullet">{FR.education.university.description["3"]}</li>
               </ul>
-              else if (context.state.language === 'de') return <div className="bullet">{DE.education.university.description}</div>
+              else if (context.state.language === 'de') return <div className="sub_elem">
+                <div className="bullet">{DE.education.university.description}</div>
+              </div>
             })()}</div>
-          </li>
+            </div></div>
 
-        </ul>
-      </div>
       </div>
         )}
       </MyContext.Consumer>

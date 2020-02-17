@@ -7,7 +7,8 @@
   },
 
   "home": {
-    "subheading": "Student of Mathematics | Aspiring Programmer | Espresso Enthusiast"
+    "subheading": "Student of Mathematics | Aspiring Programmer | Espresso Enthusiast",
+    "contact": "shane@collinz.ca | 1-630-577-7568"
   },
 
   "education": {
@@ -24,9 +25,9 @@
       "institution": "University of Waterloo",
       "location": "Waterloo, Ontario, Canada",
       "description": {
-        "1": "Developed skills in mathematical logic and proofs, linear algebra, graph theory, combinatorial enumeration, and linear optimization",
+        "1": "Developed skills in mathematical logic and proofs, linear algebra, graph theory, combinatorial enumeration, graph and network theory, and linear optimization",
         "2": "Developed strong written and communication skills in English, German, and French",
-        "3": "Practiced functional and imperative programming"
+        "3": "Practiced functional, imperative, and object-oriented programming"
       }
     }
   },
@@ -52,7 +53,7 @@
       "timeframe": "June 2018 - August 2018",
       "location": "Bolingbrook, Illinois, USA",
       "description": {
-        "1": "Took orders from customers and diagnose issues with food or service to ensures superior service",
+        "1": "Took orders from customers and diagnosed issues with food or service to ensure superior service",
         "2": "Communicated effectively with my associates in the kitchen to help ensure the quality of the product",
         "3": "Learned how to function in unfamiliar situations without hindering the performance of my team"
       }
@@ -71,7 +72,7 @@
 
     "HHD": {
       "company": "HHD Imports Inc",
-      "title": "Coordinator of Sales and Marketing",
+      "title": "Administrative and Marketing Assisstant",
       "timeframe": "May 2019 - September 2019",
       "location": "Waterloo, Ontario, Canada",
       "description": {

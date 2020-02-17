@@ -12,12 +12,7 @@ class About extends React.Component {
   render() {
     return (
       <MyContext.Consumer>{(context) => (
-      <div className="page">
-        <button className="headerTab" onClick={this.props.scrollToTop}>{(() => {
-          if (context.state.language === 'en') return EN.nav.top;
-          else if (context.state.language === 'fr') return FR.nav.top;
-          else if (context.state.language === 'de') return DE.nav.top;
-        })()}</button>
+      <div className="about_bg"><div className="page">
         <div className="subtitle_heading">{(() => {
           if (context.state.language === 'en') {return EN.about.heading;}
           else if (context.state.language === 'fr') return FR.about.heading;
@@ -38,8 +33,7 @@ class About extends React.Component {
           else if (context.state.language === 'fr') return FR.about.description["3"];
           else if (context.state.language === 'de') return DE.about.description["3"];
         })()}</div>
-        <div className="bottomPadding"></div>
-      </div>
+      </div></div>
       )}
       </MyContext.Consumer>
     )

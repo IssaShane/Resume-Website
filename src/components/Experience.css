@@ -4,8 +4,65 @@
 
 .company {
   color: #BDBDBD;
+  padding-left: 10vh;
+  font-size: 10vh;
+}
+
+.section_header {
+  color: whitesmoke;
+  font-size: 25vw;
+  text-align: left;
+  padding-left: 25vh;
+  padding-top: 15vh;
 }
 
 .job_title {
   font-style: oblique;
+  font-size: 7vh;
+  padding-left: 10vh;
+  color: whitesmoke;
+}
+
+ul {
+  padding-left: 0vh;
+}
+
+.HHD_background {
+  background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(151, 240, 107, 0.5)
+  ),
+  url('../img/wine_glasses.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.Portillos_background {
+  background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(182, 167, 159, 0.5)
+  ),
+  url('../img/hotdogs.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.Math_ambassador_background {
+  background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(255, 148, 251, 0.5)
+  ),
+  url('../img/building_worms_eye.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.header_background {
+  background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(127, 181, 171, 0.5)
+  ),
+  url('../img/man_infrontof_stairs.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
