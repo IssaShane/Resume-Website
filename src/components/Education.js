@@ -25,7 +25,7 @@ class Education extends React.Component {
             <div className="institution">{(() => {
               if (context.state.language === 'en') return (EN.education.highschool.institution + " : " + EN.education.highschool.timeframe);
               else if (context.state.language === 'fr') return (FR.education.highschool.institution + " : " + FR.education.highschool.timeframe);
-              else if (context.state.language === 'de') return (DE.education.highschool.institution + " : " + FR.education.highschool.timeframe);
+              else if (context.state.language === 'de') return (DE.education.highschool.institution + " : " + DE.education.highschool.timeframe);
             })()}</div>
           </div></div>
 
