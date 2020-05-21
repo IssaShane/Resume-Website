@@ -1,0 +1,88 @@
+.programming {
+  background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(198, 107, 240, 0.5)
+  ),
+  url('../img/programming.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.language {
+  background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(170, 224, 213, 0.5)
+  ),
+  url('../img/greekbook.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bullet {
+  padding-left: 0vh;
+  color: white;
+  font-size: 3vh;
+  list-style: circle;
+  font-style: normal;
+}
+
+.tab {
+  padding-left: 5vh;
+}
+
+.subsection_header {
+  font-style: oblique;
+  font: Courier;
+  font-size: 7vh;
+  padding-top: 10vh;
+  padding-left: 10vh;
+  color: whitesmoke;
+}
+
+.body {
+  padding-top: 7vh;
+  padding-left: 10vh;
+}
+
+.skills-content {
+  position: relative;
+}
+
+.skills-tags {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-tag {
+  padding-left: 0vh;
+  color: rgb(190, 190, 190);
+  font-size: 3vh;
+  font-style: normal;
+  position: relative;
+  align-self: flex-start;
+}
+
+.skills-bullet {
+  display: flex;
+  flex-direction: row;
+  font-size: 3vh;
+  padding-left: 0vh;
+  justify-content: space-between;
+  padding-top:1vh;
+}
+
+.skills-descr {
+  color: whitesmoke;
+  align-self: flex-end;
+  align-content: flex-end;
+  padding-right: 5vh;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  text-align: right;
+}

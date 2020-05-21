@@ -15,7 +15,7 @@ class Experience extends React.Component {
         
         <div className="header_background"><div className="page">
            
-        <div className="section_header">{(() => {
+        <div className="exp-section-header">{(() => {
           if (context.state.language === 'en') return EN.experience.heading;
           else if (context.state.language === 'fr') return FR.experience.heading;
           else if (context.state.language === 'de') return DE.experience.heading;
@@ -23,7 +23,10 @@ class Experience extends React.Component {
         </div></div>
 
 
-        <div className="HHD_background"><div className="page">
+        <div className="page">
+          <div className="pagebox">
+          <div className="HHD_background"></div>
+          <div className="text_block_right">
             <div className="company">{(() => {
               if (context.state.language === 'en') return (EN.experience.HHD.company + " : " + EN.experience.HHD.timeframe);
               else if (context.state.language === 'fr') return (FR.experience.HHD.company + " : " + FR.experience.HHD.timeframe);
@@ -49,14 +52,17 @@ class Experience extends React.Component {
                 <li className="bullet">{FR.experience.HHD.description["3"]}</li>
                 <li className="bullet">{FR.experience.HHD.description["4"]}</li>
                 </ul>
-            })()}
-            
+              })()}
             </div>
-          </div></div>
+            </div>
+            </div>
+          </div>
         
           
 
-          <div className="Math_ambassador_background"><div className="page">
+          <div className="page">
+            <div className="pagebox">
+              <div className="text_block_left">
             <div className="company">{(() => {
               if (context.state.language === 'en') return (EN.experience["Math Ambassador"].company + " : " +
                                                            EN.experience["Math Ambassador"].timeframe);
@@ -83,36 +89,44 @@ class Experience extends React.Component {
                 <div className="bullet">{DE.experience["Math Ambassador"].description}</div>
               </div>
             })()}</div>
-          </div></div>
+            </div>
+            <div className="Math_ambassador_background"></div>
+            </div>
+          </div>
 
-          <div className="Portillos_background"><div className="page">
-            <div className="company">{(() => {
-              if (context.state.language === 'en') return (EN.experience.Portillos.company + " : " + EN.experience.Portillos.timeframe);
-              else if (context.state.language === 'fr') return (FR.experience.Portillos.company + " : " + FR.experience.Portillos.timeframe);
-              else if (context.state.language === 'de') return (DE.experience.Portillos.company + " : " + DE.experience.Portillos.timeframe);
-            })()}</div>
-            <div className="job_title">{(() => {
-              if (context.state.language === 'en') return EN.experience.Portillos.title;
-              else if (context.state.language === 'fr') return FR.experience.Portillos.title;
-              else if (context.state.language === 'de') return DE.experience.Portillos.title;
-            })()}</div>
+          <div className="page">
+            <div className="pagebox">
+              <div className="Portillos_background"></div>
+              <div className="text_box_right">
+                <div className="company">{(() => {
+                  if (context.state.language === 'en') return (EN.experience.Portillos.company + " : " + EN.experience.Portillos.timeframe);
+                  else if (context.state.language === 'fr') return (FR.experience.Portillos.company + " : " + FR.experience.Portillos.timeframe);
+                  else if (context.state.language === 'de') return (DE.experience.Portillos.company + " : " + DE.experience.Portillos.timeframe);
+                })()}</div>
+                <div className="job_title">{(() => {
+                  if (context.state.language === 'en') return EN.experience.Portillos.title;
+                  else if (context.state.language === 'fr') return FR.experience.Portillos.title;
+                  else if (context.state.language === 'de') return DE.experience.Portillos.title;
+                })()}</div>
 
 
-            <div>{(() => {
-              if (context.state.language === 'en') return <ul className="sub_elem">
-                <li className="bullet">{EN.experience.Portillos.description["1"]}</li>
-                <li className="bullet">{EN.experience.Portillos.description["2"]}</li>
-                <li className="bullet">{EN.experience.Portillos.description["3"]}</li>
-              </ul>
-              else if (context.state.language === 'de') return <div className="sub_elem">
-                <div className="bullet">{DE.experience.Portillos.description}</div></div>
-              else if (context.state.language === 'fr') return <ul className="sub_elem">
-                  <li className="bullet">{FR.experience.Portillos.description["1"]}</li>
-                  <li className="bullet">{FR.experience.Portillos.description["2"]}</li>
-                  <li className="bullet">{FR.experience.Portillos.description["3"]}</li>
-                </ul>
-            })()}</div>
-          </div></div>
+                <div>{(() => {
+                  if (context.state.language === 'en') return <ul className="sub_elem">
+                    <li className="bullet">{EN.experience.Portillos.description["1"]}</li>
+                    <li className="bullet">{EN.experience.Portillos.description["2"]}</li>
+                    <li className="bullet">{EN.experience.Portillos.description["3"]}</li>
+                  </ul>
+                  else if (context.state.language === 'de') return <div className="sub_elem">
+                    <div className="bullet">{DE.experience.Portillos.description}</div></div>
+                  else if (context.state.language === 'fr') return <ul className="sub_elem">
+                      <li className="bullet">{FR.experience.Portillos.description["1"]}</li>
+                      <li className="bullet">{FR.experience.Portillos.description["2"]}</li>
+                      <li className="bullet">{FR.experience.Portillos.description["3"]}</li>
+                    </ul>
+                })()}</div>
+            </div>
+            </div>
+          </div>
         
       </div>
 

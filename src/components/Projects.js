@@ -19,7 +19,7 @@ class Projects extends React.Component {
         {(context) => (
           <div className="ProjectBG">
           <div className="page">
-            <div className="subtitle_heading">
+            <div className="subsection_header">
               {(() => {
                 if (context.state.language === 'en') return EN.projects.heading;
                 else if (context.state.language === "fr") return FR.projects.heading;
@@ -33,7 +33,7 @@ class Projects extends React.Component {
                   else if (context.state.language === 'fr') return FR.projects['Graph GUI Tool'].title;
                   else if (context.state.language === 'de') return DE.projects['Graph GUI Tool'].title;
                 })()}</div>
-                <div className="language">{(() => {
+                <div className="programming_lang">{(() => {
                   if (context.state.language === 'en') return 'Language: ' + EN.projects['Graph GUI Tool'].language;
                   else if (context.state.language === 'fr') return "Langue: " + FR.projects['Graph GUI Tool'].language;
                   else if (context.state.language === 'de') return "Sprache: " + DE.projects['Graph GUI Tool'].language;

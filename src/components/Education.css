@@ -1,10 +1,19 @@
 .EduBG {
   background-image: linear-gradient(
     rgba(0,0,0,0.5),
-    rgba(127, 181, 171, 0.5)
+    rgba(223, 126, 190, 0.5)
   ),
   url('../img/curved_bookshelf.jpg');
   background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.text_block_left {
+  background-color: rgb(34, 34, 34);
+}
+
+.text_block_right {
+  background-color: rgb(34, 34, 34);
 }
 
 .nchs_background {
@@ -12,7 +21,10 @@
   rgba(182, 167, 159, 0.5)),
   url('../img/lockers.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 280% 100%;
+  max-height: 100%;
+  width: 50vw;
+  height: 100vh;
   filter: grayscale(65%);
 }
 
@@ -23,20 +35,23 @@
   ),
   url('../img/bookshelf.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 280% 100%;
+  max-height: 100%;
+  width: 50vw;
+  height: 100vh;
   filter: grayscale(65%);
 }
 
-.section_header {
+.edu-section-header {
   color: whitesmoke;
-  font-size: 28vh;
+  font-size: min(15vw,25vh);
   text-align: left;
   padding-left: 25vh;
   padding-top: 15vh;
 }
 
 .institution {
-  color: #BDBDBD;
+  color: rgb(223, 126, 190);
   padding-left: 10vh;
   font-size: 10vh;
 }
