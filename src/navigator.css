@@ -6,7 +6,8 @@
   font-size: 20px;
   padding: 0 15px;
   float: left;
-  padding-top: 10px;
+  padding-top: 0vh;
+  display: flex;
 }
 
 .langTab:hover {
@@ -15,6 +16,16 @@
 
 .topNavBar {
   background: black;
+  display: flex;
+  flex-direction: row;
+  z-index: 3;
+  position: absolute;
+  justify-self: center;
+  justify-items: center;
+  justify-content: center;
+
+  
+  min-width: 100%;
 }
 
 .pageNav {
@@ -27,17 +38,36 @@
   padding-top: 1vh;
   padding-bottom: 1vh;
   text-decoration: none;
-  justify-content: center;
 }
 
 .pageNav:hover {
   transform: scale(1.1);
 }
 
+.navToggle {
+  z-index: 4;
+  position: absolute;
+
+  border: none !important;
+  font-size: 20px;
+  background: transparent;
+  color: whitesmoke;
+  padding: 10px 15px;
+}
+
 .linkBar {
   background-color: transparent;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-right: 16vh;
+}
+
+.fadeOut {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+.fadeIn {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 300ms, opacity 300ms;
 }

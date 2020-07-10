@@ -22,8 +22,8 @@ class Index extends React.Component {
       return (
         <MyContext.Consumer>
           {(context) => (
-            <div>
-                
+            <div className="webpage_body">
+                <div className="page">
               
                 <button className="headerTab" onClick={this.props.scrollToExperience}>{(() => {
                 if (context.state.language === 'en') return EN.nav.experience;
@@ -55,6 +55,7 @@ class Index extends React.Component {
               <Icon className="soc_med_icon" link="https://www.github.com/IssaShane" image={GithubImg}/>
               </div>
               <div className="bottomPadding"></div>
+              </div>
             </div>
           )}
         </MyContext.Consumer>

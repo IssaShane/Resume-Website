@@ -1,7 +1,7 @@
 .programming {
   background-image: linear-gradient(
     rgba(0,0,0,0.5),
-    rgba(198, 107, 240, 0.5)
+    rgba(34, 34, 34, 0.5)
   ),
   url('../img/programming.jpg');
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 .language {
   background-image: linear-gradient(
     rgba(0,0,0,0.5),
-    rgba(170, 224, 213, 0.5)
+    rgba(34, 34, 34, 0.5)
   ),
   url('../img/greekbook.jpg');
   background-repeat: no-repeat;
@@ -57,11 +57,12 @@
 .skills-tags {
   display: flex;
   flex-direction: column;
+  
 }
 
 .skills-tag {
   padding-left: 0vh;
-  color: rgb(190, 190, 190);
+  color: rgb(255, 188, 213);
   font-size: 3vh;
   font-style: normal;
   position: relative;

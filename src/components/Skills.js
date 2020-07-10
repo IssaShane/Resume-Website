@@ -10,7 +10,7 @@ class Skills extends React.Component {
   render() {
     return(<MyContext.Consumer>
       {(context) => (
-        <div>
+        <div className="webpage_body">
         <div className="programming"><div className="page">
           <div className="subsection_header">{(() => {
             if (context.state.language === 'en') return EN.skills.programming.heading;

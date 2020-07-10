@@ -19,7 +19,7 @@
     },
 
     "university": {
-      "timeframe": "Herbst 2017 - Frühling 2021",
+      "timeframe": "Herbst 2017 - Frühling 2022",
       "degree": "Bachelour's of Mathematics",
       "institution": "University of Waterloo",
       "location": "Waterloo, Ontario, Canada",
@@ -74,9 +74,34 @@
   "projects": {
     "heading": "Projekten",
     "Graph GUI Tool": {
-      "title": "Graph GUI Tool (unverfasstes Titel)",
-      "description": "Ein graphisches Softwarearbeitszeug, beabsichtigt für Studenten von Graph und Neztwerk Theorie, um ihre Verständnis zu verbessern.",
+      "title": "CO250",
+      "description": "ein backend Werkzeug, das Rechnungen für fraktionierte Arithmetik, matrix-vector Arithmetik, und das Simplex Algorithmus, automatisiert.",
       "language": "C++"
+    },
+    "Seaghán's Fractions": {
+      "title": "Seaghán's Fractions",
+      "description": "ein zwangloses pädagogisches Werkzeug für elementären Schülern zu sein, um Arithmetik mit Fraktionen zu üben.",
+      "language": "C++, Java"
+    }
+  },
+
+  "skills": {
+    "heading": "Fähigkeiten",
+    "programming": {
+      "heading": "Programmierung",
+      "Java": "unabhängige Erfharung",
+      "C/C++": "Kurserfahrung; dynamische Speicher Allokation und Objekt-Orientierte Programmierung Anweisungen gesetzt",
+      "C#": "flüchtige unabhängige Erfahrung",
+      "Racket": "Kurserfahrung; practiced functional programming principles",
+      "Python": "Kurserfahrung; practiced data structure composition and algorithm cost analysis",
+      "JSX/HTML/CSS/React": "unabhängige Erfahrung; benutzt, um diese Webseite zu bauen"
+    },
+
+    "language": {
+      "heading": "Sprache",
+      "French": "~C1 (von GERS)",
+      "German": "~C1 (von GERS)",
+      "English": "Muttersprache"
     }
   }
 }

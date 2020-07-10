@@ -11,15 +11,15 @@ class Education extends React.Component {
     return (
       <MyContext.Consumer>
         {(context) => (
-      <div className="EduBG">
+      <div className="EduPage">
         
-        <div className="page">
+        <div className="webpage_body">
+        <div className="EduBG"><div className="page">
         <div className="edu-section-header">{(() => {
           if (context.state.language === 'en') return EN.nav.education;
           else if (context.state.language === 'fr') return FR.nav.education;
           else if (context.state.language === 'de') return DE.nav.education;
-        })()}</div>
-        </div>
+        })()}</div></div></div>
 
         <div className="page">
           <div className="pagebox">
@@ -39,9 +39,9 @@ class Education extends React.Component {
             <div className="uw_background"></div>
             <div className="text_block_right">
         <div className="institution">{(() => {
-            if (context.state.language === 'en') return EN.education.university.institution;
-            else if (context.state.language === 'fr') return FR.education.university.institution;
-            else if (context.state.language === 'de') return DE.education.university.institution;
+            if (context.state.language === 'en') return EN.education.university.institution + " : " + EN.education.university.timeframe;
+            else if (context.state.language === 'fr') return FR.education.university.institution + " : " + FR.education.university.timeframe;
+            else if (context.state.language === 'de') return DE.education.university.institution + " : " + DE.education.university.timeframe;
           })()}
           </div>
           <div className="description">{(() => {
@@ -63,7 +63,7 @@ class Education extends React.Component {
           </div>
           </div>
           </div>
-
+          </div>
       </div>
         )}
       </MyContext.Consumer>

@@ -12,7 +12,7 @@ class Experience extends React.Component {
       <MyContext.Consumer>
         {(context) => (
       <div className="ExpBG">
-        
+        <div className="webpage_body">
         <div className="header_background"><div className="page">
            
         <div className="exp-section-header">{(() => {
@@ -27,7 +27,7 @@ class Experience extends React.Component {
           <div className="pagebox">
           <div className="HHD_background"></div>
           <div className="text_block_right">
-            <div className="company">{(() => {
+            <div className="company-large">{(() => {
               if (context.state.language === 'en') return (EN.experience.HHD.company + " : " + EN.experience.HHD.timeframe);
               else if (context.state.language === 'fr') return (FR.experience.HHD.company + " : " + FR.experience.HHD.timeframe);
               else if (context.state.language === 'de') return (DE.experience.HHD.company + " : " + DE.experience.HHD.timeframe);
@@ -57,8 +57,6 @@ class Experience extends React.Component {
             </div>
             </div>
           </div>
-        
-          
 
           <div className="page">
             <div className="pagebox">
@@ -98,7 +96,7 @@ class Experience extends React.Component {
             <div className="pagebox">
               <div className="Portillos_background"></div>
               <div className="text_box_right">
-                <div className="company">{(() => {
+                <div className="company-large">{(() => {
                   if (context.state.language === 'en') return (EN.experience.Portillos.company + " : " + EN.experience.Portillos.timeframe);
                   else if (context.state.language === 'fr') return (FR.experience.Portillos.company + " : " + FR.experience.Portillos.timeframe);
                   else if (context.state.language === 'de') return (DE.experience.Portillos.company + " : " + DE.experience.Portillos.timeframe);
@@ -127,7 +125,7 @@ class Experience extends React.Component {
             </div>
             </div>
           </div>
-        
+          </div>
       </div>
 
       )}

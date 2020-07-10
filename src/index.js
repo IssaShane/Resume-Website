@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Icon from './components/icon';
+//import App from './App';
+//import Icon from './components/icon';
 import * as serviceWorker from './serviceWorker';
 
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
+//import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 
 import Nav from './navigator';
 
-import Projects from './components/Projects';
+//import Projects from './components/Projects';
 import { MyProvider } from './context';
 
 const router = (

@@ -14,7 +14,7 @@ class Home extends React.Component {
   render() {
     return (<MyContext.Consumer>
       {(context) => (
-    <div className="home_background"><div className="page">
+    <div className="webpage_body"><div className="home_background"><div className="page">
       <div className="title_heading">Seaghán Elliott Walter Collins</div>
       <div className="subtitle">{(() => {
         if (context.state.language === 'en') return EN.home.subheading;
@@ -26,7 +26,7 @@ class Home extends React.Component {
         <Icon className="soc_med_icon" link="https://www.linkedin.com/in/seagh%C3%A1n-collins-0b595a160/" image={LinkedInImg}/>
         <Icon className="soc_med_icon" link="https://www.github.com/IssaShane" image={GithubImg}/>
       </div>
-    </div></div>
+    </div></div></div>
       )}
     </MyContext.Consumer>);
   }

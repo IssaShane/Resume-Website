@@ -90,9 +90,34 @@
   "projects": {
     "heading": "Projects",
     "Graph GUI Tool": {
-      "title": "Graph GUI Tool (Titre provisoire)",
-      "description": "un outil graphique destiné pour aider des étudiants d'améliorer leure compréhension de la Théorie des Graph et des Networks",
+      "title": "CO250",
+      "description": "un outil dorsal qui automatise les calculations pour l'arithmétique fractionnaire, arithmétique matrix-vector, et l'algorithme Simplex",
       "language": "C++"
+    },
+    "Seaghán's Fractions": {
+      "title": "Seaghán's Fractions",
+      "description": "un outil éducational pour les élèves en école primaire pour pratiquer des opérations arithmétiques avec des fractions.",
+      "language": "C++, Java"
+    }
+  },
+
+  "skills": {
+    "heading": "compétences",
+    "programming": {
+      "heading": "Programmation",
+      "Java": "Expérience indépendente",
+      "C/C++": "Expérience des cours; employé allocation de memoire dynamique et des prancipals de la programmation objet-orientée",
+      "C#": "Expérience hâtive indépendente",
+      "Racket": "Expérience des cours; employé des principals de la programmation fonctionnelle",
+      "Python": "Expérience des cours; employé de la composition des structures des données et l'analyse des côtes des algorithmes",
+      "JSX/HTML/CSS/React": "Expérience indépendente; utilisé pour construire cette site-web"
+    },
+
+    "language": {
+      "heading": "Langue",
+      "French": "~C1 (par CECRL)",
+      "German": "~C1 (par CECRL)",
+      "English": "Natale"
     }
   }
 }

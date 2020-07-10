@@ -4,10 +4,10 @@ import './App.css';
 import Experience from "./components/Experience";
 import Education from './components/Education';
 import About from './components/about';
-import Projects from './components/Projects';
-import { MyProvider, MyContext } from './context';
+//import Projects from './components/Projects';
+import { MyContext } from './context';
 
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
+//import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 
 class App extends React.Component {
     constructor(props) {

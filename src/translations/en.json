@@ -97,9 +97,34 @@
   "projects" : {
     "heading": "Projects",
     "Graph GUI Tool": {
-      "title": "Graph GUI Learning Tool (Working Title)",
-      "description": "A graphical tool intended to help students learn more about Graph and Network Theory.",
+      "title": "CO250",
+      "description": "A backend codebase that automates calculations for fractional arithmetic, matrix-vector arithmetic, and the Simplex algorithm.",
       "language": "C++"
+    },
+    "Seaghán's Fractions": {
+       "title": "Seaghán's Fractions",
+       "description": "A casual educational desktop application designed to generate practice problems for fractional arithmetic.",
+       "language": "C++, Java"
+    }
+  },
+
+  "skills": {
+    "heading": "skills",
+    "programming": {
+      "heading": "Programming",
+      "Java": "Independent experience",
+      "C/C++": "Course level experience; practiced dynamic memory allocation and object-oriented programming practices",
+      "C#": "Cursory independent experience",
+      "Racket": "Course level experience; practiced functional programming principles",
+      "Python": "Course level experience; practiced data structure composition and algorithm cost analysis",
+      "JSX/HTML/CSS/React": "Independent experience; used to build this webpage"
+    },
+
+    "language": {
+      "heading": "Language",
+      "French": "~C1 level (by CEFR)",
+      "German": "~C1 level (by CEFR)",
+      "English": "Native"
     }
   }
 }
