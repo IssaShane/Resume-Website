@@ -75,6 +75,17 @@
         "3": "Créer contenu marketing pour des produits de l’alcool niches",
         "4": "Maintenir une site web avec l’information, les prix, et les disponibilités des produits courant et à venir"
       }
+    },
+
+    "Target": {
+      "company": "Target",
+      "title": "Collègue en Vente",
+      "timeframe": "Mai 2020 - Présent",
+      "location": "Bolingbrook, Illinois, États-Unis",
+      "description": {
+        "1": "S'adapter vite à l’environnement palpitant de la vente pour satisfaire tous les besoins de mes collègues et mes clients",
+        "2": "Prendre de l’initiative pour enrichir mes compétences en service, accomplissement des ordres, maintenance des rayonnages, et l’optimisation visuelle des rayonnages clés"
+      }
     }
   },
 
@@ -88,15 +99,23 @@
   },
 
   "projects": {
-    "heading": "Projects",
+    "heading": "Projets",
     "Graph GUI Tool": {
       "title": "CO250",
       "description": "un outil dorsal qui automatise les calculations pour l'arithmétique fractionnaire, arithmétique matrix-vector, et l'algorithme Simplex",
+      "goal": "j'ai vu une manque des outils de qualité pour l'automisation des calculations mathématiques, sur lequel on pourrait bâtir, donc j'ai crée cet outil. Je l'ai crée pour qu'on puisse l'appeler comme un procès dorsal de n'importe quelle langue de programmation.",
       "language": "C++"
     },
     "Seaghán's Fractions": {
       "title": "Seaghán's Fractions",
       "description": "un outil éducational pour les élèves en école primaire pour pratiquer des opérations arithmétiques avec des fractions.",
+      "goal": "je voulais créer un outil facile-à-utiliser pour des parents des élèves en école primaire, pour aider leur enfants à practiquer les fractions.",
+      "language": "C++, Java"
+    },
+    "Seaghán's Matrices": {
+      "title": "Seaghán's Matrices",
+      "description": "Une calculatrice simple pour des matrix",
+      "goal": "je voulais créer une calculatrice très simple pour aider des étudiants à vérifier leures solutions",
       "language": "C++, Java"
     }
   },

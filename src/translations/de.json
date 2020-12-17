@@ -59,6 +59,14 @@
       "timeframe": "Mai 2019 - August 2019",
       "location": "Waterloo, Ontario, Canada",
       "description": "Assistent für Dokumentation und Kommunikation für LCBO (Liquor Control Board of Ontario / Büro für die Kontrolle von Alkohol von Ontario), und Marketing für Alkohol Produkten einer Nische"
+    },
+
+    "Target": {
+      "company": "Target",
+      "title": "Einzelhandelsteilhaber",
+      "timeframe": "Mai 2020 - Gegenwart",
+      "location": "Bolingbrook, Illinois, USA",
+      "description": "Team Mitglieder, mit Kenntnissen von allen relevanten Aspekten von Einzelhandelsberufsstrategien für Target"
     }
   },
 
@@ -76,11 +84,19 @@
     "Graph GUI Tool": {
       "title": "CO250",
       "description": "ein backend Werkzeug, das Rechnungen für fraktionierte Arithmetik, matrix-vector Arithmetik, und das Simplex Algorithmus, automatisiert.",
+      "goal": "Ich sah einen Fehlen von Werkzeugen für Automasieren der Mathematik, darauf man weiterbauen könnte, deshalb entschiede ich mich dieses Werkzeug zu machen. Ich habe dieses Werkzeug gemacht, von der Perspektiv, dass man es als einem anderen Prozess benutzen könnte, von jeder Programmierungssprache.",
       "language": "C++"
     },
     "Seaghán's Fractions": {
       "title": "Seaghán's Fractions",
       "description": "ein zwangloses pädagogisches Werkzeug für elementären Schülern zu sein, um Arithmetik mit Fraktionen zu üben.",
+      "goal": "",
+      "language": "C++, Java"
+    },
+    "Seaghán's Matrices": {
+      "title": "Seaghán's Matrices",
+      "description": "ein einfacher matrix-matrix Rechner",
+      "goal": "",
       "language": "C++, Java"
     }
   },

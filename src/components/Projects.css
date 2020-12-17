@@ -5,6 +5,46 @@ html {
     sans-serif;
 }
 
+.bg-CO250 {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.55), 
+    rgb(0, 0, 0, 0.55)
+  ),
+  url('../img/systems-of-equations.jpg');
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  width: 50vw;
+  height: 100vh;
+  filter: grayscale(10%);
+}
+
+.bg-Seaghans-Fractions {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.55), 
+    rgb(0, 0, 0, 0.55)
+  ),
+  url('../img/pipes.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 50vw;
+  height: 100vh;
+  filter: grayscale(10%);
+  padding-left: 0vh;
+}
+
+.bg-Seaghans-Matrices {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.55), 
+    rgb(0, 0, 0, 0.55)
+  ),
+  url('../img/brownboard.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 50vw;
+  height: 100vh;
+  filter: grayscale(10%);
+}
+
 .headerTab {
   color: whitesmoke;
   background: transparent;
@@ -20,6 +60,24 @@ html {
 
 .headerTab:hover {
   transform: scale(1.1);
+}
+
+.project-section-header {
+  color: whitesmoke;
+  font-size: 180px;
+  text-align: left;
+  padding-left: 25vh;
+  padding-top: 15vh;
+}
+
+.project-goal-section {
+  padding-left: 0vh;
+  color: white;
+  font-size: 3vh;
+  list-style: circle;
+  font-style: normal;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
 .page {

@@ -22,6 +22,38 @@ class Experience extends React.Component {
         })()}</div>
         </div></div>
 
+        <div className="page">
+            <div className="pagebox">
+              
+              <div className="text_box_left">
+                <div className="company-large">{(() => {
+                  if (context.state.language === 'en') return (EN.experience.Target.company + " : " + EN.experience.Target.timeframe);
+                  else if (context.state.language === 'fr') return (FR.experience.Target.company + " : " + FR.experience.Target.timeframe);
+                  else if (context.state.language === 'de') return (DE.experience.Target.company + " : " + DE.experience.Target.timeframe);
+                })()}</div>
+                <div className="job_title">{(() => {
+                  if (context.state.language === 'en') return EN.experience.Target.title;
+                  else if (context.state.language === 'fr') return FR.experience.Target.title;
+                  else if (context.state.language === 'de') return DE.experience.Target.title;
+                })()}</div>
+
+                <div>{(() => {
+                  if (context.state.language === 'en') return <ul className="sub_elem">
+                    <li className="bullet">{EN.experience.Target.description["1"]}</li>
+                    <li className="bullet">{EN.experience.Target.description["2"]}</li>
+                  </ul>
+                  else if (context.state.language === 'de') return <div className="sub_elem">
+                    <div className="bullet">{DE.experience.Target.description}</div></div>
+                  else if (context.state.language === 'fr') return <ul className="sub_elem">
+                      <li className="bullet">{FR.experience.Target.description["1"]}</li>
+                      <li className="bullet">{FR.experience.Target.description["2"]}</li>
+                    </ul>
+                })()}</div>
+              </div>
+              <div className="Target_background"></div>
+            </div>
+          </div>
+
 
         <div className="page">
           <div className="pagebox">
@@ -124,8 +156,13 @@ class Experience extends React.Component {
                 })()}</div>
             </div>
             </div>
+
+          
           </div>
           </div>
+
+          
+
       </div>
 
       )}

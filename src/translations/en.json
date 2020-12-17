@@ -81,6 +81,17 @@
         "3": "Developed marketing content to meet the unique needs of niche beverage alcohol products",
         "4": "Maintained company website with availability, release dates, and prices of existing and upcoming products"
       }
+    },
+
+    "Target" : {
+      "company": "Target",
+      "title": "Retail Associate",
+      "timeframe": "May 2020 - Present",
+      "location": "Bolingbrook, Illinois, USA",
+      "description": {
+        "1": "Adapted quickly to a fast-paced retail environment to satisfy all the needs of my team and my guests ",
+        "2": "Took initiative to expand my expertise to include cashiering, guest service, curbside pickup, order fulfillment, shelf stocking, and visual optimization of key shelves "
+      }
     }
   },
 
@@ -99,12 +110,20 @@
     "Graph GUI Tool": {
       "title": "CO250",
       "description": "A backend codebase that automates calculations for fractional arithmetic, matrix-vector arithmetic, and the Simplex algorithm.",
+      "goal": "I saw a lack of quality tools for automating mathematical calculations that one could build upon, so I developed this tool. I created it in the mindset that a person could use it as a command line process, so that they could call it form any other programming language.",
       "language": "C++"
     },
     "Seaghán's Fractions": {
        "title": "Seaghán's Fractions",
        "description": "A casual educational desktop application designed to generate practice problems for fractional arithmetic.",
+       "goal": "I wanted to develop a piece of easy-to-use software for parents of young children, to help them practice fractions.",
        "language": "C++, Java"
+    },
+    "Seaghán's Matrices": {
+      "title": "Seaghán's Matrices",
+      "description": "A simple matrix matrix calculator",
+      "goal": "I wanted to develop a simple, lean tool for students learning linear algebra.",
+      "language": "C++, Java"
     }
   },
 

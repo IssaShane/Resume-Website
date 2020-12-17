@@ -15,7 +15,7 @@ class Home extends React.Component {
     return (<MyContext.Consumer>
       {(context) => (
     <div className="webpage_body"><div className="home_background"><div className="page">
-      <div className="title_heading">Seaghán Elliott Walter Collins</div>
+      <div className="title_heading">Shane Elliott Walter Collins</div>
       <div className="subtitle">{(() => {
         if (context.state.language === 'en') return EN.home.subheading;
         if (context.state.language === 'fr') return FR.home.subheading;

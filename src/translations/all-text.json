@@ -1,0 +1,362 @@
+{
+  "en" : {
+    "nav": {
+      "experience": "Experience",
+      "education": "Education",
+      "top": "Back To Top",
+      "about": "About Me"
+    },
+  
+    "home": {
+      "subheading": "Student of Mathematics | Aspiring Programmer | Espresso Enthusiast",
+      "contact": "shane@collinz.ca | 1-630-577-7568"
+    },
+  
+    "education": {
+      "highschool": {
+        "timeframe": "Autumn 2014 - Spring 2017",
+        "degree": "GED",
+        "institution": "Naperville Central High School",
+        "location": "Naperville, Illinois, USA"
+      },
+  
+      "university": {
+        "timeframe": "Autumn 2017 - Spring 2022",
+        "degree": "Bachelour's of Mathematics",
+        "institution": "University of Waterloo",
+        "location": "Waterloo, Ontario, Canada",
+        "description": {
+          "1": "Developed skills in mathematical logic and proofs, linear algebra, graph theory, combinatorial enumeration, graph and network theory, and linear optimization",
+          "2": "Developed strong written and communication skills in English, German, and French",
+          "3": "Practiced functional, imperative, and object-oriented programming"
+        }
+      }
+    },
+  
+    "experience": {
+      "heading": "Experience",
+      "Taco_Hell": {
+        "company": "Taco Bell",
+        "title": "Service Champion",
+        "timeframe": "September 2015 - December 2015",
+        "location": "Naperville, Illinois, USA",
+        "description": {
+          "1": "Took orders from customers, both from the front desk and from the drive-thru",
+          "2": "Cleaned washrooms, dining areas, and cooking areas",
+          "3": "Restocked kitchen, washed dishes, and took out garbage",
+          "4": "Learned to accommodate the needs of others, both customers and coworkers"
+        }
+      },
+  
+      "Portillos": {
+        "company": "Portillo's Hotdogs",
+        "title": "Customer Service Representative",
+        "timeframe": "June 2018 - August 2018",
+        "location": "Bolingbrook, Illinois, USA",
+        "description": {
+          "1": "Took orders from customers and diagnosed issues with food or service to ensure superior service",
+          "2": "Communicated effectively with my associates in the kitchen to help ensure the quality of the product",
+          "3": "Learned how to function in unfamiliar situations without hindering the performance of my team"
+        }
+      },
+  
+      "Math Ambassador": {
+        "company": "University of Waterloo, Faculty of Mathematics",
+        "title": "Math Student Ambassador",
+        "timeframe": "October 2018 - Present",
+        "location": "Waterloo, Ontario, Canada",
+        "description": {
+          "1": "Delivered superior service to a diverse group of prospective students to the faculty of mathematics at the University of Waterloo, as well as their families",
+          "2": "Offered invaluable guidance regarding courses, Co-op opportunities, and student life"
+        }
+      },
+  
+      "HHD": {
+        "company": "HHD Imports Inc",
+        "title": "Administrative and Marketing Assisstant",
+        "timeframe": "May 2019 - September 2019",
+        "location": "Waterloo, Ontario, Canada",
+        "description": {
+          "1": "Coordinated communication between the LCBO (Liquor Control Board of Ontario) and foreign liquor producers",
+          "2": "Fulfilled orders and documentation needs for the LCBO, foreign liquor producers, and my colleagues", 
+          "3": "Developed marketing content to meet the unique needs of niche beverage alcohol products",
+          "4": "Maintained company website with availability, release dates, and prices of existing and upcoming products"
+        }
+      }
+    },
+  
+    "about": {
+      "heading": "About Me",
+      "description": {
+      "1":"Hello! Aside from an enthusiasm for espresso and a tinacity for tea, one could say I have a profound curiosity for code; a passion for programming (okay enough with the alliteration; this will be impossible to translate). As a third-year student (almost) at the University of Waterloo, I’ve learned to appreciate the steps that took me from Grand Cayman, to suburban Toronto, to suburban Chicagoland, to Waterloo.",
+      "2":"During my foundational period in Illinois, I found joy in many creative endeavors: singing, dancing, playing the piano, drawing, painting, and (occasionally) writing; there were simply so many things to express and so many ways to do so. Later on, I began to acquire foreign languages, and use them to explore other cultures.",
+      "3":"And so, it is here that I stand, frankly, wondering what the hell I’m doing. The road ahead is long, arduous, and unfamiliar. I’ll take it one step at a time; I can’t know what will stand before me, until it trips me flat on my face."  
+  
+    }
+    },
+  
+    "projects" : {
+      "heading": "Projects",
+      "Graph GUI Tool": {
+        "title": "CO250",
+        "description": "A backend codebase that automates calculations for fractional arithmetic, matrix-vector arithmetic, and the Simplex algorithm.",
+        "language": "C++"
+      },
+      "Seaghán's Fractions": {
+         "title": "Seaghán's Fractions",
+         "description": "A casual educational desktop application designed to generate practice problems for fractional arithmetic.",
+         "language": "C++, Java"
+      }
+    },
+  
+    "skills": {
+      "heading": "skills",
+      "programming": {
+        "heading": "Programming",
+        "Java": "Independent experience",
+        "C/C++": "Course level experience; practiced dynamic memory allocation and object-oriented programming practices",
+        "C#": "Cursory independent experience",
+        "Racket": "Course level experience; practiced functional programming principles",
+        "Python": "Course level experience; practiced data structure composition and algorithm cost analysis",
+        "JSX/HTML/CSS/React": "Independent experience; used to build this webpage"
+      },
+  
+      "language": {
+        "heading": "Language",
+        "French": "~C1 level (by CEFR)",
+        "German": "~C1 level (by CEFR)",
+        "English": "Native"
+      }
+    }
+  },
+  "de" : {
+    "nav": {
+      "experience": "Erfahrung",
+      "education": "Ausbildung",
+      "top": "Zurück zu Kopf", 
+      "about": "Über Mich"
+    },
+  
+    "home": {
+      "subheading": "Student von der Mathematik | Aufstrebender Programmierer | Liebhaber von Espresso"
+    },
+  
+    "education": {
+      "highschool": {
+        "timeframe": "Herbst 2014 - Frühling 2017",
+        "degree": "GED",
+        "institution": "Naperville Central High School",
+        "location": "Naperville, Illinois, USA"
+      },
+  
+      "university": {
+        "timeframe": "Herbst 2017 - Frühling 2022",
+        "degree": "Bachelour's of Mathematics",
+        "institution": "University of Waterloo",
+        "location": "Waterloo, Ontario, Canada",
+        "description": "Durch meine Zeit an der Universität von Waterloo soweit bekam ich Erfahrung mit Mathe Logische und Nachweisen, lineare Algebra, Graf und Netzwerk Theorie, lineare Optimization, funktionelle, imperative, und objekt-orientierte Programmierung, und wirksame Kommunikation auf Englisch, Französisch, und Deutsch."
+      }
+    },
+  
+    "experience": {
+      "heading": "Erfahrung",
+      "Taco_Hell": {
+        "company": "Taco Bell",
+        "title": "Service Champion",
+        "timeframe": "September 2015 - Dezember 2015",
+        "location": "Naperville, Illinois, USA",
+        "description": "Hauptkellner und Team Mitglieder "
+      },
+  
+      "Portillos": {
+        "company": "Portillo's Hotdogs",
+        "title": "Customer Service Representative",
+        "timeframe": "Juni 2018 - August 2018",
+        "location": "Bolingbrook, Illinois, USA",
+        "description": "Kellner, beide innen und draußen, und Team Mitglieder"
+      },
+  
+      "Math Ambassador": {
+        "company": "University of Waterloo, Faculty of Mathematics",
+        "title": "Math Student Ambassador",
+        "timeframe": "Oktober 2018 - Heutig",
+        "location": "Waterloo, Ontario, Canada",
+        "description": "Platzanweiser und Leiter für zukünftigen Studenten von der Fakultät von Mathematik"
+      },
+  
+      "HHD": {
+        "company": "HHD Imports Inc",
+        "title": "Assistent von der Administration und Marketing",
+        "timeframe": "Mai 2019 - August 2019",
+        "location": "Waterloo, Ontario, Canada",
+        "description": "Assistent für Dokumentation und Kommunikation für LCBO (Liquor Control Board of Ontario / Büro für die Kontrolle von Alkohol von Ontario), und Marketing für Alkohol Produkten einer Nische"
+      }
+    },
+  
+    "about": {
+      "heading": "Über Mich",
+      "description": {
+        "1":"Hallo! Außer ein Enthusiasmus für Espresso und eine Tenazität für Tee, man könnte sagen, dass ich eine große Neugierigkeit für coding habe; eine Passion für Programmierung (das reicht für Alliteration; das wäre unmöglich überzusetzen). Als ein dritter-Jahre Student an der Universität von Waterloo, ich habe gelernt, die Schritte zu schätzen, die mich hierhin gebracht haben, aus Grand Cayman, nach der Nähe von Toronto, nach der Nähe von Chicago, nach Waterloo. ",
+        "2":"Durch meine grundlegende Periode in Illinois habe ich eine Glücklichkeit gefunden, in kreative Aktivitäten: singen, tanzten, Klavier spielen, zeichnen, malen, und (manchmal) schreiben; es gab einfach so viel zu äußern und grenzenlos viel Möglichkeiten zu realisieren. Später habe ich angefangen, Fremdsprachen anzunehmen, und sie benutzen, um andere Kulturen für mich zu entdecken.",
+        "3":"Und jetzt ist es hier wo ich stehe, und ehrlich, frage mich was zum Teufel ich mache. Die Straße steht vor mir lange, mühsam, und unbekannte. Ich werde Schritte von Schritte spazieren; ich kann einfach nicht wissen, was vor mir stehen wird, bis es mir direkt in den Gesicht anschlägt. "
+      }
+    },
+  
+    "projects": {
+      "heading": "Projekten",
+      "Graph GUI Tool": {
+        "title": "CO250",
+        "description": "ein backend Werkzeug, das Rechnungen für fraktionierte Arithmetik, matrix-vector Arithmetik, und das Simplex Algorithmus, automatisiert.",
+        "language": "C++"
+      },
+      "Seaghán's Fractions": {
+        "title": "Seaghán's Fractions",
+        "description": "ein zwangloses pädagogisches Werkzeug für elementären Schülern zu sein, um Arithmetik mit Fraktionen zu üben.",
+        "language": "C++, Java"
+      }
+    },
+  
+    "skills": {
+      "heading": "Fähigkeiten",
+      "programming": {
+        "heading": "Programmierung",
+        "Java": "unabhängige Erfharung",
+        "C/C++": "Kurserfahrung; dynamische Speicher Allokation und Objekt-Orientierte Programmierung Anweisungen gesetzt",
+        "C#": "flüchtige unabhängige Erfahrung",
+        "Racket": "Kurserfahrung; practiced functional programming principles",
+        "Python": "Kurserfahrung; practiced data structure composition and algorithm cost analysis",
+        "JSX/HTML/CSS/React": "unabhängige Erfahrung; benutzt, um diese Webseite zu bauen"
+      },
+  
+      "language": {
+        "heading": "Sprache",
+        "French": "~C1 (von GERS)",
+        "German": "~C1 (von GERS)",
+        "English": "Muttersprache"
+      }
+    }
+  },
+  "fr": {
+    "nav": {
+      "experience": "Éxperience",
+      "education": "Éducation",
+      "top": "À La Tête",
+      "about": "Biographie"
+    },
+  
+    "home": {
+      "subheading": "Étudiant de la Mathématique | Programmeur Éspirant | Amateur d'Espresso"
+    },
+  
+    "education": {
+      "highschool": {
+        "timeframe": "Autumn 2014 - Printemps 2017",
+        "degree": "GED",
+        "institution": "Naperville Central High School",
+        "location": "Naperville, Illinois, USA"
+      },
+  
+      "university": {
+        "timeframe": "Autumn 2017 - Printemps 2022",
+        "degree": "Bachelour's of Mathematics",
+        "institution": "University of Waterloo",
+        "location": "Waterloo, Ontario, Canada",
+        "description": {
+          "1": "Développer des habitudes en logique de la mathématique, l’algèbre linéaire, les combinatoriques, la théorie des graphes et réseau, et l’optimisation linéaire",
+          "2": "Développer des habitudes fortes en communication en anglais, français, et allemand",
+          "3": "Pratiquer la programmation fonctionnelle, impérative, et orientée objet"
+        }
+      }
+    },
+  
+    "experience": {
+      "heading": "Expérience",
+      "Taco_Hell": {
+        "company": "Taco Bell",
+        "title": "Champion de Service",
+        "timeframe": "Septembre 2015 - Decembre 2015",
+        "location": "Naperville, Illinois, USA",
+        "description": "Comme un champion de service, la responsabilité est tombée à moi de prendre des commandes, même de la réception, et du drive-thru, nettoyer les toilettes, le coin repas, et la cuisine, reconstituer les ingrédients dans la cuisine, faire la vaisselle, et sortir les ordures. Pendant ce travail, j’ai appris à accommoder les demandes des autres, même clients et collègues"
+      },
+  
+      "Portillos": {
+        "company": "Portillo's Hotdogs",
+        "title": "Représentetive de Service Client",
+        "timeframe": "Juin 2018 - Août 2018",
+        "location": "Bolingbrook, Illinois, USA",
+        "description": {
+          "1": "Prendre des ordres des clients et diagnostiquer des problèmes avec la cuisine et le service pour assurer le service supérieur",
+          "2": "Communiquer effectivement avec mes associés dans la cuisine pour assurer la qualité du produit",
+          "3": "Apprendre de fonctionner en situations inconnues sans empêcher la performance de mon équipe"
+        }
+      },
+  
+      "Math Ambassador": {
+        "company": "Univérsité de Waterloo, Faculté de la Mathémathique",
+        "title": "Math Student Ambassador",
+        "timeframe": "Octobre 2018 - Present",
+        "location": "Waterloo, Ontario, Canada",
+        "description": {
+          "1": "Fournir du service supérieur au groupe diverse des étudiants et familles prospectives de la faculté de la mathématique chez l’Université de Waterloo",
+          "2": "Offrir de la guidance aux sujets des cours, opportunités stagiaires, et la vie des étudiants"
+        }
+      },
+  
+      "HHD": {
+        "company": "HHD Imports Inc",
+        "title": "Assistant en Administration et Marketing",
+        "timeframe": "Mai 2019 - Août 2019",
+        "location": "Waterloo, Ontario, Canada",
+        "description": {
+          "1": "Coordonner de la communication entre LCBO (Bureau du Contrôle de la Liqueur de l’Ontario) et des producteurs étrangers du vin",
+          "2": "Remplir des ordres et des besoins de la documentation pour LCBO, des producteurs étrangers du vin, et mes collègues",
+          "3": "Créer contenu marketing pour des produits de l’alcool niches",
+          "4": "Maintenir une site web avec l’information, les prix, et les disponibilités des produits courant et à venir"
+        }
+      }
+    },
+  
+    "about": {
+      "heading": "Biographie",
+      "description": {
+        "1":"Bonjour ! Sauf pour un enthousiasme pour l’espresso et une ténacité pour le thé, on pourrait dire que j’ai une curiosité profonde pour le coding ; une passion pour la programmation (ça suffit avec l’allitération ; ça sera impossible à traduire). Comme un étudiant en (presque) troisième année à l’Université de Waterloo, J’ai appris d’apprécier les étapes qui m’ont emmené du Cayman Grand, aux banlieues de Toronto, aux banlieues de Chicago, à Waterloo.",
+        "2":"Durant ma période fondamentale en Illinois, j’ai trouvé la joie en plusieurs d’activités créatives : chanter, danser, jouer au piano, dessiner, peintre, et (quelque fois) écrire ; il y avait simplement beaucoup d’exprimer avec une million façons par lesquels de la faire. Plus tard, j’ai commencé d’acquérir des langues étranges, et les utiliser pour explorer des autres cultures.",
+        "3":"Et maintenant, c’est ici où je suis, franchement, où je me demande ce que du fuck je fais. La rue devant de moi est longue, ardue, et inconnue. Je la prendrai étape par étape ; je ne peux pas savoir ce qui se trouvera devant de moi avant je trébuche sur mon visage."
+      }
+    },
+  
+    "projects": {
+      "heading": "Projects",
+      "Graph GUI Tool": {
+        "title": "CO250",
+        "description": "un outil dorsal qui automatise les calculations pour l'arithmétique fractionnaire, arithmétique matrix-vector, et l'algorithme Simplex",
+        "language": "C++"
+      },
+      "Seaghán's Fractions": {
+        "title": "Seaghán's Fractions",
+        "description": "un outil éducational pour les élèves en école primaire pour pratiquer des opérations arithmétiques avec des fractions.",
+        "language": "C++, Java"
+      }
+    },
+  
+    "skills": {
+      "heading": "compétences",
+      "programming": {
+        "heading": "Programmation",
+        "Java": "Expérience indépendente",
+        "C/C++": "Expérience des cours; employé allocation de memoire dynamique et des prancipals de la programmation objet-orientée",
+        "C#": "Expérience hâtive indépendente",
+        "Racket": "Expérience des cours; employé des principals de la programmation fonctionnelle",
+        "Python": "Expérience des cours; employé de la composition des structures des données et l'analyse des côtes des algorithmes",
+        "JSX/HTML/CSS/React": "Expérience indépendente; utilisé pour construire cette site-web"
+      },
+  
+      "language": {
+        "heading": "Langue",
+        "French": "~C1 (par CECRL)",
+        "German": "~C1 (par CECRL)",
+        "English": "Natale"
+      }
+    }
+  }
+}
