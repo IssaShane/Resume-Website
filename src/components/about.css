@@ -17,7 +17,8 @@
     rgba(0,0,0,0.5),
     rgba(0, 228, 160, 0.171)
   ),
-  url('../img/Tomahawk.jpg');
-  background-size: 100% 100%;
+  url('../img/poster_wall_portrait.jpg');
+  background-size: 140% 100%;
+  object-position: -40% 0;
   background-repeat: no-repeat;
 }
