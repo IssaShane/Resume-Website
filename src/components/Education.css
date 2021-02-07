@@ -49,9 +49,10 @@
 .edu-section-header {
   color: whitesmoke;
   font-size: 200px;
-  text-align: left;
-  padding-left: 25vh;
-  padding-top: 15vh;
+  text-align: center;
+  padding-left: 0vh;
+  padding-top: 5vh;
+  font-style: italic;
 }
 
 .institution {
@@ -71,4 +72,5 @@
   flex-direction: column;
   align-items: center;
   background-color: rgb(34 , 34, 34);
+  padding: 0vh;
 }

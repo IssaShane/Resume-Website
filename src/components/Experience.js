@@ -13,7 +13,7 @@ class Experience extends React.Component {
         {(context) => (
       <div className="ExpBG">
         <div className="webpage_body">
-        <div className="header_background"><div className="page">
+        <div className="header_background"><div className="title-page">
            
         <div className="exp-section-header">{(() => {
           if (context.state.language === 'en') return EN.experience.heading;

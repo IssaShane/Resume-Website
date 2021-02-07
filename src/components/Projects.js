@@ -20,7 +20,7 @@ class Projects extends React.Component {
         {(context) => (
           <div className="webpage_body">
 
-          <div className="ProjectBG"><div className="page">
+          <div className="ProjectBG"><div className="title-page">
             <div className="project-section-header">{(() => {
               if (context.state.language === 'en') return EN.projects.heading;
               else if (context.state.language === 'fr') return FR.projects.heading;
@@ -28,9 +28,9 @@ class Projects extends React.Component {
             })()}</div>
           </div></div>
 
-          <ul>
-            <li className="page"><div className="pagebox">
-            <div className="text_block_left">
+         
+            <div className="page"><div className="pagebox">
+            <div className="text_block_left"><div className="project-text">
               <div className="project_title">{(() => {
                 if (context.state.language === 'en') return EN.projects['Graph GUI Tool'].title;
                 else if (context.state.language === 'fr') return FR.projects['Graph GUI Tool'].title;
@@ -41,7 +41,7 @@ class Projects extends React.Component {
                 else if (context.state.language === 'fr') return "Langue: " + FR.projects['Graph GUI Tool'].language;
                 else if (context.state.language === 'de') return "Sprache: " + DE.projects['Graph GUI Tool'].language;
               })()}</div>
-              <div className="bullet">{(() => {
+              <div className="project-description">{(() => {
                 if (context.state.language === 'en') return EN.projects['Graph GUI Tool'].description;
                 else if (context.state.language === 'fr') return FR.projects['Graph GUI Tool'].description;
                 else if (context.state.language === 'de') return DE.projects['Graph GUI Tool'].description;
@@ -51,18 +51,18 @@ class Projects extends React.Component {
                 else if (context.state.language === 'fr') return FR.projects['Graph GUI Tool'].goal;
                 else if (context.state.language === 'de') return DE.projects['Graph GUI Tool'].goal;
               })()}</div>
-              <Icon className="github_link" link="https://www.github.com/IssaShane/CO250" image={GithubImg}/>
+              <Icon className="github_divnk" divnk="https://www.github.com/IssaShane/CO250" image={GithubImg}/>
               {/*<a className="docLink" href="https://drive.google.com/file/d/1wYSNR5pv_w44Y7Q1_ERav8zEFJgLpiyZ/view?usp=sharing" target="blank">{(() => {
                 if (context.state.language === 'en') return "view the design documents";
-                else if (context.state.language === 'fr') return "lire les documents de conception";
+                else if (context.state.language === 'fr') return "divre les documents de conception";
                 else if (context.state.language === 'de') return "Gestaltungsdokumenten lesen";
               })()}</a>*/}
-            </div>
+            </div></div>
             <div className="bg-CO250"></div>
-            </div></li>
-            <li className="page"><div className="pagebox">
+            </div></div>
+            <div className="page"><div className="pagebox">
               <div className="bg-Seaghans-Fractions"></div>
-              <div className="text_box_right">
+              <div className="text_box_right"><div className="project-text">
               <div className="project_title">{(() => {
                 if (context.state.language === 'en') return EN.projects["Seaghán's Fractions"].title;
                 else if (context.state.language === 'de') return DE.projects["Seaghán's Fractions"].title;
@@ -73,7 +73,7 @@ class Projects extends React.Component {
                 else if (context.state.language === 'de') return "Sprache: " + DE.projects["Seaghán's Fractions"].language;
                 else if (context.state.language === 'fr') return "Langue: " + FR.projects["Seaghán's Fractions"].language;
               })()}</div>
-              <div className="bullet">{(() => {
+              <div className="project-description">{(() => {
                 if (context.state.language === 'en') return EN.projects["Seaghán's Fractions"].description;
                 else if (context.state.language === 'de') return DE.projects["Seaghán's Fractions"].description;
                 else if (context.state.language === 'fr') return FR.projects["Seaghán's Fractions"].description;
@@ -83,11 +83,11 @@ class Projects extends React.Component {
                 else if (context.state.language === 'de') return DE.projects["Seaghán's Fractions"].goal;
                 else if (context.state.language === 'fr') return FR.projects["Seaghán's Fractions"].goal;
               })()}</div>
-              <Icon className="github_link" link="https://www.github.com/IssaShane/Seaghan-s-Fractions" image={GithubImg}/>
-              </div>
-            </div></li>
-            <li className="page"><div className="pagebox">
-              <div className="text_box_left">
+              <Icon className="github_divnk" divnk="https://www.github.com/IssaShane/Seaghan-s-Fractions" image={GithubImg}/>
+              </div></div>
+            </div></div>
+            <div className="page"><div className="pagebox">
+              <div className="text_box_left"><div className="project-text">
                 <div className="project_title">{(() => {
                   if (context.state.language === 'en') return EN.projects["Seaghán's Matrices"].title;
                   else if (context.state.language === 'de') return DE.projects["Seaghán's Matrices"].title;
@@ -98,7 +98,7 @@ class Projects extends React.Component {
                   else if (context.state.language === 'de') return "Sprache: " + DE.projects["Seaghán's Matrices"].language;
                   else if (context.state.language === 'fr') return "Langue: " + FR.projects["Seaghán's Matrices"].language;
                 })()}</div>
-                <div className="bullet">{(() => {
+                <div className="project-description">{(() => {
                   if (context.state.language === 'en') return EN.projects["Seaghán's Matrices"].description;
                   else if (context.state.language === 'de') return DE.projects["Seaghán's Matrices"].description;
                   else if (context.state.language === 'fr') return FR.projects["Seaghán's Matrices"].description;
@@ -108,12 +108,11 @@ class Projects extends React.Component {
                   else if (context.state.language === 'de') return DE.projects["Seaghán's Matrices"].goal;
                   else if (context.state.language === 'fr') return FR.projects["Seaghán's Matrices"].goal;
                 })()}</div>
-                <Icon className="github_link" link="https://www.github.com/IssaShane/Seaghans-Matrices" image={GithubImg}/>
-              </div>
+                <Icon className="github_divnk" divnk="https://www.github.com/IssaShane/Seaghans-Matrices" image={GithubImg}/>
+              </div></div>
               <div className="bg-Seaghans-Matrices"></div>
-            </div></li>
-              
-          </ul>
+            </div></div>
+          
           
           
           </div>

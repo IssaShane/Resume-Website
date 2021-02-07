@@ -45,6 +45,14 @@ html {
   filter: grayscale(10%);
 }
 
+.project-description {
+  padding-left: 0vh;
+  color: whitesmoke;
+  font-size: 3vh;
+  list-style: circle;
+  font-style: normal;
+}
+
 .headerTab {
   color: whitesmoke;
   background: transparent;
@@ -65,9 +73,10 @@ html {
 .project-section-header {
   color: whitesmoke;
   font-size: 180px;
-  text-align: left;
-  padding-left: 25vh;
-  padding-top: 15vh;
+  text-align: center;
+  padding-left: 0vh;
+  padding-top: 5vh;
+  padding-bottom: 0vh;
 }
 
 .project-goal-section {
@@ -78,6 +87,10 @@ html {
   font-style: normal;
   padding-top: 2vh;
   padding-bottom: 2vh;
+}
+
+.project-text {
+  padding-left: 2vh;
 }
 
 .page {
@@ -135,17 +148,27 @@ html {
   ),
   url('../img/projectjournal.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 300%;
+  max-height: 300px;
+  max-width: cover;
   filter: grayscale(10%);
 }
 
 li {
   color: white;
-  padding-left: 10vh;
+  padding-left: 0vh;
+  padding-top: 0vh;
+  padding-right: 0vh;
   list-style: none;
   font-style: bold;
   font-size: 4vh;
   filter: none;
+}
+
+ul {
+  padding-top: 0vh;
+  padding-left: 0vh;
+  padding-right: 0vh;
 }
 
 .sub_elem {
@@ -171,6 +194,8 @@ li {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  color: whitesmoke;
+  font-size: 4vh;
 }
 
 .project_title {
@@ -178,6 +203,7 @@ li {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  font-size: 4vh;
 }
 
 .docLink {

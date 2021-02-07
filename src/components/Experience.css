@@ -17,9 +17,10 @@
 .exp-section-header {
   color: whitesmoke;
   font-size: 200px;
-  text-align: left;
-  padding-left: 25vh;
-  padding-top: 15vh;
+  text-align: center;
+  padding-left: 0vh;
+  padding-top: 3vh;
+  font-style: italic;
 }
 
 .job_title {
@@ -37,6 +38,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-left: 0vh;
 }
 
 .HHD_background {
@@ -97,7 +99,6 @@ ul {
     rgba(223, 126, 190, 0.5)
   ),
   url('../img/man_infrontof_stairs.jpg');
-  background-size: 100% 100%;
-  
+  background-size: 100% 300%;
   background-repeat: no-repeat;
 }

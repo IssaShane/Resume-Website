@@ -14,7 +14,7 @@ class Education extends React.Component {
       <div className="EduPage">
         
         <div className="webpage_body">
-        <div className="EduBG"><div className="page">
+        <div className="EduBG"><div className="title-page">
         <div className="edu-section-header">{(() => {
           if (context.state.language === 'en') return EN.nav.education;
           else if (context.state.language === 'fr') return FR.nav.education;

@@ -26,9 +26,21 @@ html {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 1280px;
+  width: 100%;
+  max-width: 1280px;
   height: 800px;
   align-self: center;
+}
+
+.title-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  height: 300px;
+  align-self: center;
+  align-items: center;
+  padding: 0vh;
 }
 
 
