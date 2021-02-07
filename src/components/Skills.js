@@ -11,12 +11,16 @@ class Skills extends React.Component {
     return(<MyContext.Consumer>
       {(context) => (
         <div className="webpage_body">
-        <div className="programming"><div className="page">
-          <div className="subsection_header">{(() => {
+
+
+        <div className="programming"><div className="title-page">
+          <div className="skill-section-header">{(() => {
             if (context.state.language === 'en') return EN.skills.programming.heading;
             else if (context.state.language === 'fr') return FR.skills.programming.heading;
             else if (context.state.language === 'de') return DE.skills.programming.heading;
-          })()}</div>
+          })()}</div></div></div>
+
+        <div className="page">
           <div className="body">
             <div className="skills-tags">
               <div className="skills-bullet">
@@ -56,31 +60,32 @@ class Skills extends React.Component {
               </div>
             </div>
           </div>
-        </div></div>
-        <div className="language"><div className="page">
-          <div className="subsection_header">{(() => {
+        </div>
+
+        <div className="language"><div className="title-page">
+          <div className="skill-section-header">{(() => {
             if (context.state.language === 'en') return EN.skills.language.heading;
             else if (context.state.language === 'fr') return FR.skills.language.heading;
             else if (context.state.language === 'de') return DE.skills.language.heading;
+          })()}</div></div></div>
+
+        <div className="page"><div className="body">
+          <div className="bullet">{(() => {
+            if (context.state.language === 'en') return "English: " + EN.skills.language.English;
+            else if (context.state.language === 'fr') return "Anglais: " + FR.skills.language.English;
+            else if (context.state.language === 'de') return "Englisch: " + DE.skills.language.English;
           })()}</div>
-          <div className="body">
-            <div className="bullet">{(() => {
-              if (context.state.language === 'en') return "English: " + EN.skills.language.English;
-              else if (context.state.language === 'fr') return "Anglais: " + FR.skills.language.English;
-              else if (context.state.language === 'de') return "Englisch: " + DE.skills.language.English;
-            })()}</div>
-            <div className="bullet">{(() => {
-              if (context.state.language === 'en') return "French: " + EN.skills.language.French;
-              else if (context.state.language === 'fr') return "Français: " + FR.skills.language.French;
-              else if (context.state.language === 'de') return "Französisch: " + DE.skills.language.French;
-            })()}</div>
-            <div className="bullet">{(() => {
-              if (context.state.language === 'en') return "German: " + EN.skills.language.German;
-              else if (context.state.language === 'de') return "Deutsch: " + DE.skills.language.German;
-              else if (context.state.language === 'fr') return "Allemand: " + FR.skills.language.German;
-            })()}</div>
-          </div>
-        </div>}</div>
+          <div className="bullet">{(() => {
+            if (context.state.language === 'en') return "French: " + EN.skills.language.French;
+            else if (context.state.language === 'fr') return "Français: " + FR.skills.language.French;
+            else if (context.state.language === 'de') return "Französisch: " + DE.skills.language.French;
+          })()}</div>
+          <div className="bullet">{(() => {
+            if (context.state.language === 'en') return "German: " + EN.skills.language.German;
+            else if (context.state.language === 'de') return "Deutsch: " + DE.skills.language.German;
+            else if (context.state.language === 'fr') return "Allemand: " + FR.skills.language.German;
+          })()}</div>
+          </div></div>
         </div>
       )}
 

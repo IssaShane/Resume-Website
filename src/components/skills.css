@@ -5,7 +5,7 @@
   ),
   url('../img/programming.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 300%;
 }
 
 .language {
@@ -15,7 +15,7 @@
   ),
   url('../img/greekbook.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 300%;
 }
 
 .page {
@@ -36,12 +36,14 @@
   padding-left: 5vh;
 }
 
-.subsection_header {
-  font-style: oblique;
+.skill-section-header {
+  font-style: italic;
+  text-align: center;
   font: Courier;
-  font-size: 7vh;
+  font-size: 100px;
   padding-top: 10vh;
-  padding-left: 10vh;
+  padding-left: 0vh;
+  padding-bottom: 0vh;
   color: whitesmoke;
 }
 
