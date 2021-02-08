@@ -3,7 +3,7 @@
     rgba(0,0,0,0.5),
     rgba(34, 34, 34, 0.5)
   ),
-  url('../img/programming.jpg');
+  url('../img/programming_resized.jpg');
   background-repeat: no-repeat;
   background-size: 100% 300%;
 }
@@ -13,7 +13,7 @@
     rgba(0,0,0,0.5),
     rgba(34, 34, 34, 0.5)
   ),
-  url('../img/greekbook.jpg');
+  url('../img/greekbook_resized.jpg');
   background-repeat: no-repeat;
   background-size: 100% 300%;
 }

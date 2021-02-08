@@ -10,7 +10,7 @@ html {
     rgba(0, 0, 0, 0.55), 
     rgb(0, 0, 0, 0.55)
   ),
-  url('../img/systems-of-equations.jpg');
+  url('../img/systems-of-equations_resized.jpg');
   background-repeat: no-repeat;
   background-size: 200% 100%;
   width: 50vw;
@@ -23,7 +23,7 @@ html {
     rgba(0, 0, 0, 0.55), 
     rgb(0, 0, 0, 0.55)
   ),
-  url('../img/pipes.jpg');
+  url('../img/pipes_resized.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 50vw;
@@ -37,7 +37,7 @@ html {
     rgba(0, 0, 0, 0.55), 
     rgb(0, 0, 0, 0.55)
   ),
-  url('../img/brownboard.jpg');
+  url('../img/brownboard_resized.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 50vw;
@@ -146,7 +146,7 @@ html {
     rgba(0, 0, 0, 0.55), 
     rgb(0, 0, 0, 0.55)
   ),
-  url('../img/projectjournal.jpg');
+  url('../img/projectjournal_resized.jpg');
   background-repeat: no-repeat;
   background-size: 100% 300%;
   max-height: 300px;

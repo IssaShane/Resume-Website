@@ -55,7 +55,7 @@ ul {
 }
 
 .Target_background {
-  background-image: url('../img/target_pallettes.jpg');
+  background-image: url('../img/target_pallettes_resized.jpg');
   background-repeat: no-repeat;
   background-size: 280% 100%;
   max-height: 100%;

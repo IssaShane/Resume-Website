@@ -1,9 +1,9 @@
 .EduBG {
   background-image: linear-gradient(
-    rgba(0,0,0,0.5),
-    rgba(223, 126, 190, 0.5)
+    rgba(223, 126, 190, 0.25),
+    rgba(223, 126, 190, 0.25)
   ),
-  url('../img/curved_bookshelf.jpg');
+  url('../img/curved_bookshelf_resized.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -23,7 +23,7 @@
 .nchs_background {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),
   rgba(182, 167, 159, 0.5)),
-  url('../img/lockers.jpg');
+  url('../img/lockers_resized.jpg');
   background-repeat: no-repeat;
   background-size: 280% 100%;
   max-height: 100%;
@@ -37,7 +37,7 @@
     rgba(0,0,0,0.5),
     rgba(255, 231, 111, 0.5)
   ),
-  url('../img/bookshelf.jpg');
+  url('../img/bookshelf_resized.jpg');
   background-repeat: no-repeat;
   background-size: 280% 100%;
   max-height: 100%;
