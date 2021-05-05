@@ -23,7 +23,7 @@ class Home extends React.Component {
       })()}</div>
       <div className="subtitle">{EN.home.contact}</div>
       <div className="soc_med_bar">
-        <Icon className="soc_med_icon" link="https://www.linkedin.com/in/seagh%C3%A1n-collins-0b595a160/" image={LinkedInImg}/>
+        <Icon className="soc_med_icon" link="https://www.linkedin.com/in/shane-collins-0b595a160/" image={LinkedInImg}/>
         <Icon className="soc_med_icon" link="https://www.github.com/IssaShane" image={GithubImg}/>
       </div>
     </div></div></div>
